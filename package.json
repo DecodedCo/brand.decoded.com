@@ -1,0 +1,34 @@
+{
+  "name": "brand-guidelines",
+  "version": "0.0.1",
+  "description": "Decoded Brand Guidelines",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "cp ./src/index.html ./build/index.html & webpack -p -d --progress --colors",
+    "dev": "cp ./src/index.html ./build/index.html & webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "autoprefixer": "^6.0.3",
+    "css-loader": "^0.19.0",
+    "extract-text-webpack-plugin": "^0.8.2",
+    "postcss": "^5.0.10",
+    "postcss-custom-media": "^5.0.0",
+    "postcss-import": "^7.0.0",
+    "postcss-loader": "^0.6.0",
+    "style-loader": "^0.12.4",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DecodedCo/brand-guidelines.git"
+  },
+  "author": "[Jonas Haefele] (jonas@decoded.com], [Phil Sherwin-Nicholls](phil@decoded.com)",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/DecodedCo/brand-guidelines/issues"
+  },
+  "homepage": "https://github.com/DecodedCo/brand-guidelines#readme"
+}
