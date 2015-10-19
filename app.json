@@ -1,0 +1,8 @@
+{
+  "name": "Decoded Brand Guidelines",
+  "description": "Everything Decoded in one Place",
+  "repository": "https://github.com/heroku/node-js-getting-started",
+  "logo": "https://assets.decoded.com/images/decoded-round.svg",
+  "keywords": ["node", "express", "static"],
+  "image": "heroku/nodejs"
+}

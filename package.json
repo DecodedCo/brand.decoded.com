@@ -6,11 +6,13 @@
   "scripts": {
     "build": "cp ./src/index.html ./build/index.html & webpack -p -d --progress --colors",
     "dev": "cp ./src/index.html ./build/index.html & webpack-dev-server",
+    "serve": "npm run build && node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "autoprefixer": "^6.0.3",
     "css-loader": "^0.19.0",
+    "express": "^4.13.3",
     "extract-text-webpack-plugin": "^0.8.2",
     "postcss": "^5.0.10",
     "postcss-custom-media": "^5.0.0",
