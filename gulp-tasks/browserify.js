@@ -39,7 +39,13 @@ module.exports = function () {
         global.config.outputDir + '/js'
     );
 
+    var nav = bundle(
+        global.config.componentsDir + '/nav/nav.js',
+        'nav.js',
+        global.config.outputDir + '/js'
+    );
 
-    return merge(mainApp);
+
+    return merge(mainApp, nav);
 
 };
