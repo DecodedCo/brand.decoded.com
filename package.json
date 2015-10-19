@@ -4,15 +4,18 @@
   "description": "Decoded Brand Guidelines",
   "main": "webpack.config.js",
   "scripts": {
-    "build": "cp ./src/index.html ./build/index.html & webpack -p -d --progress --colors",
-    "dev": "cp ./src/index.html ./build/index.html & webpack-dev-server",
-    "serve": "npm run build && node index.js",
+    "build": "webpack -p -d --progress --colors",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "autoprefixer": "^6.0.3",
+    "babel": "^5.8.23",
+    "babel-core": "^5.8.25",
+    "babel-loader": "^5.3.2",
     "css-loader": "^0.19.0",
     "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
     "extract-text-webpack-plugin": "^0.8.2",
     "handlebars": "^4.0.3",
     "postcss": "^5.0.10",
@@ -23,7 +26,10 @@
     "webpack": "^1.12.2",
     "webpack-dev-server": "^1.12.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "handlebars-loader": "^1.1.4",
+    "http-proxy": "^1.11.2"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DecodedCo/brand-guidelines.git"
