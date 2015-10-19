@@ -1,0 +1,179 @@
+/* containers */
+
+    html {
+        -webkit-font-smoothing: antialiased !important;
+        font-size: 100%;
+    }
+
+    body {
+        font-family: var(--font-sans);
+        font-weight: var(--sans-normal);
+    }
+
+/* headings */
+    h1, h2, h3, h4, h5, h6 {
+        font-family: var(--font-sans);
+    }
+
+    h1 {
+        font-family: var(--font-serif);
+        font-weight: var(--serif-normal);
+        font-size: var(--typo-scale-XXL)rem;
+        line-height: 1.125;
+        margin: 2rem 0;
+    }
+
+    h1.headline {
+        font-size: var(--typo-scale-XXXXL)rem;
+        line-height: 1;
+        text-transform: uppercase;
+        font-weight: var(--sans-normal);
+        margin: 4rem 0;
+    }
+
+    h2 {
+        font-size: var(--typo-scale-XXXL)rem;
+        line-height: 1.125;
+        font-family: var(--font-serif);
+        font-weight: var(--serif-normal);
+        margin: 1rem 0;
+    }
+
+    h3 {
+        font-size: var(--typo-scale-XL)rem;
+        line-height: 1;
+        font-weight: var(--sans-bold);
+        margin: 1rem 0;
+    }
+
+    h4 {
+        font-size: var(--typo-scale-L)rem;
+        line-height: 1.125;
+        font-weight: var(--sans-bold);
+        margin: .6rem 0;
+    }
+
+    h4 {
+        font-size: var(--typo-scale-M)rem;
+        line-height: 1.27777777;
+        text-transform: uppercase;
+        font-weight: var(--sans-bold);
+        margin: .4rem 0;
+    }
+    h6 {
+        font-size: var(--typo-scale-M)rem;
+        line-height: 1.27777777;
+        text-transform: uppercase;
+        font-weight: var(--sans-normal);
+        margin: .4rem 0;
+    }
+
+/* text */
+    p {
+        font-size: var(--typo-scale-M)rem;
+        line-height: 1.3125;
+        color: var(--color-grey-dark);
+    }
+
+    strong {
+        font-weight: var(--sans-bold);
+    }
+
+    del {
+        font-weight: var(--sans-normal);
+        text-decoration: strike-through;
+    }
+
+/* links */
+    a {
+        color: var(--color-grey);
+        font-weight: var(--sans-normal);
+        text-decoration: none;
+        font-size: var(--typo-scale-M)rem;
+    }
+    a:hover,
+    a:focus,
+    a:active {
+        color: var(--color-grey);
+        text-decoration: inherit;
+    }
+
+    .typography a {
+        color: var(--color-grey);
+        font-weight: var(--sans-normal);
+        text-decoration: none;
+        border-bottom: 1px solid var(--color-grey-lighter);
+        box-shadow: inset 0 -2px 0 var(--color-grey-lighter);
+    }
+    .typography a:hover,
+    .typography a:focus,
+    .typography a:active {
+        color: var(--color-grey);
+        text-decoration: none;
+        border-bottom: 1px solid var(--color-grey-lighter);
+        box-shadow: inset 0 -4px 0 var(--color-grey-lighter);
+    }
+
+    a.no-styles{
+        color: inherit;
+        font-weight: inherit;
+        text-decoration: none;
+        letter-spacing: 0;
+    }
+    a.no-styles:hover,
+    a.no-styles:focus,
+    a.no-styles:active {
+        color: inherit;
+        text-decoration: none;
+    }
+/* lists */
+    ul, ol { }
+    li { }
+
+/* quotes */
+    blockquote {
+        font-size: var(--typo-scale-XL)rem;
+        line-height: var(--typo-scale-XXL);
+    }
+
+/**
+ * Course Name _in a Day
+ */
+
+    .courseName {
+        font-weight: var(--sans-bold);
+    }
+
+    .courseName span {
+        font-weight: var(--sans-normal);
+    }
+
+
+/**
+ * Horizontal text alignment
+ */
+
+.textCenter {
+  text-align: center !important;
+}
+
+.textLeft {
+  text-align: left !important;
+}
+
+.textRight {
+  text-align: right !important;
+}
+
+
+/*
+ * Extended Typographic styles within the .typography wrapper
+ */
+
+ .typography p {
+    margin-bottom: 1rem;
+ }
+
+ .courseName span {
+   font-weight: var(--sans-normal);
+ }

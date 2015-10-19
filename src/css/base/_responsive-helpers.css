@@ -1,0 +1,30 @@
+/*
+ * Hide on certain media
+ */
+
+@media (--max-S) {
+    *.hidden-on-min {
+        display: none !important;
+    }
+}
+@media (--S-only) {
+    *.hidden-on-S {
+        display: none !important;
+    }
+}
+@media (--M-only) {
+    *.hidden-on-M {
+        display: none !important;
+    }
+}
+@media (--L-only) {
+    *.hidden-on-L {
+        display: none !important;
+    }
+}
+
+@media (--max) {
+    *.hidden-on-max {
+        display: none !important;
+    }
+}

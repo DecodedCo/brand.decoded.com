@@ -1,0 +1,74 @@
+/* variables */
+:root {
+    /* fonts */
+        --font-sans: "DIN Next", Helvetica, sans-serif;
+        --font-serif: "Source Serif Pro", serif;
+
+        --sans-normal: 200;
+        --sans-bold: 500;
+
+        --serif-normal: 400;
+
+    /* colours */
+        --color-white: #fff;
+        --color-black: #000;
+
+        --color-grey-dark: rgb(37,37,37);
+        --color-grey-dark-alpha: rgba(37,37,37, .4);
+        --color-grey: rgb(83,80,75);
+        --color-grey-alpha: rgba(83,80,75,.4);
+        --color-grey-light: rgb(212,210,202);
+        --color-grey-light-alpha: rgba(212,210,202,.5);
+        --color-grey-lighter: rgb(242,241,239);
+        --color-grey-lighter-alpha: rgba(242,241,239,.5);
+
+        --color-yellow: rgb(254, 248, 0);
+        --color-yellow-light: rgb(254,248,127);
+
+        --color-green: rgb(46,204,133);
+        --color-blue:  rgb(52,141,204);
+        --color-red:   rgb(231,76,60);
+        --color-orange:rgb(243,146,15);
+        --color-pink:  rgb(249,58,142);
+        --color-purple:rgb(140,86,182);
+
+        --color-green-light: rgb(192,227,139);
+        --color-blue-light:  rgb(127,195,225);
+        --color-red-light:   rgb(253,158,127);
+        --color-orange-light:rgb(255,202,128);
+        --color-pink-light:  rgb(252,131,179);
+        --color-purple-light:rgb(171,127,193);
+
+    /* transitions */
+        --transition-time: 0.25s;
+
+    /* margins and spacing */
+        --spacing-S: .25rem;
+        --spacing: 1rem;
+        --spacing-L: 1.75rem;
+        --spacing-XL: 4rem;
+
+    /* Buttons & Forms*/
+        --form-border-width: 1px;
+        --form-disabled-opacity: 0.6;
+        --form-padding: 0.4em 0.75em;
+
+    /* Typographic Scale */
+        --typo-scale-XS: 0.6;
+        --typo-scale-S: 0.83;
+        --typo-scale-M: 1;
+        --typo-scale-L: 1.2;
+        --typo-scale-XL: 1.4;
+        --typo-scale-XXL: 2;
+        --typo-scale-XXXL: 2.4;
+        --typo-scale-XXXXL: 4;
+
+    /* z-index scale */
+        --z-overlay:5;
+        --z-nav: 4;
+        --z-sidebar:3;
+        --z-contentTop:2;
+        --z-contentMid:1;
+        --z-contentLow:0;
+        --z-background:-1;
+}
