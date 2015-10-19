@@ -6,7 +6,9 @@
   "scripts": {
     "build": "gulp build",
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev" : "gulp start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "gulp build"
   },
   "dependencies": {
     "autoprefixer": "^6.0.3",
