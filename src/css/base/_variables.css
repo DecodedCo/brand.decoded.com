@@ -42,33 +42,27 @@
     /* transitions */
         --transition-time: 0.25s;
 
-    /* margins and spacing */
-        --spacing-S: .25rem;
-        --spacing: 1rem;
-        --spacing-L: 1.75rem;
-        --spacing-XL: 4rem;
-
     /* Buttons & Forms*/
         --form-border-width: 1px;
         --form-disabled-opacity: 0.6;
         --form-padding: 0.4em 0.75em;
 
-    /* Typographic Scale */
-        --typo-scale-XS: 0.6;
-        --typo-scale-S: 0.83;
-        --typo-scale-M: 1;
-        --typo-scale-L: 1.2;
-        --typo-scale-XL: 1.4;
-        --typo-scale-XXL: 2;
-        --typo-scale-XXXL: 2.4;
-        --typo-scale-XXXXL: 4;
+    /* Decoded Scale */
+        -scale-XS: 0.6;
+        -scale-S: 0.83;
+        -scale-M: 1;
+        -scale-L: 1.14;
+        -scale-XL: 1.34;
+        -scale-XXL: 2.3;
+        -scale-XXXL: 3.7;
+        -scale-XXXXL: 6.7;
 
     /* z-index scale */
         --z-overlay:5;
         --z-nav: 4;
         --z-sidebar:3;
-        --z-contentTop:2;
-        --z-contentMid:1;
-        --z-contentLow:0;
+        --z-content-top:2;
+        --z-content-mid:1;
+        --z-content-low:0;
         --z-background:-1;
 }

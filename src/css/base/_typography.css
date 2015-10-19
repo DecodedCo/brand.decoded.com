@@ -20,13 +20,13 @@
     h1 {
         font-family: var(--font-serif);
         font-weight: var(--serif-normal);
-        font-size: var(--typo-scale-XXL)rem;
+        font-size: var(--scale-XXL)rem;
         line-height: 1.125;
         margin: 2rem 0;
     }
 
     h1.headline {
-        font-size: var(--typo-scale-XXXXL)rem;
+        font-size: var(--scale-XXXXL)rem;
         line-height: 1;
         text-transform: uppercase;
         font-weight: var(--sans-normal);
@@ -34,7 +34,7 @@
     }
 
     h2 {
-        font-size: var(--typo-scale-XXXL)rem;
+        font-size: var(--scale-XXXL)rem;
         line-height: 1.125;
         font-family: var(--font-serif);
         font-weight: var(--serif-normal);
@@ -42,28 +42,28 @@
     }
 
     h3 {
-        font-size: var(--typo-scale-XL)rem;
+        font-size: var(--scale-XL)rem;
         line-height: 1;
         font-weight: var(--sans-bold);
         margin: 1rem 0;
     }
 
     h4 {
-        font-size: var(--typo-scale-L)rem;
+        font-size: var(--scale-L)rem;
         line-height: 1.125;
         font-weight: var(--sans-bold);
         margin: .6rem 0;
     }
 
     h4 {
-        font-size: var(--typo-scale-M)rem;
+        font-size: var(--scale-M)rem;
         line-height: 1.27777777;
         text-transform: uppercase;
         font-weight: var(--sans-bold);
         margin: .4rem 0;
     }
     h6 {
-        font-size: var(--typo-scale-M)rem;
+        font-size: var(--scale-M)rem;
         line-height: 1.27777777;
         text-transform: uppercase;
         font-weight: var(--sans-normal);
@@ -72,7 +72,7 @@
 
 /* text */
     p {
-        font-size: var(--typo-scale-M)rem;
+        font-size: var(--scale-M)rem;
         line-height: 1.3125;
         color: var(--color-grey-dark);
     }
@@ -91,7 +91,7 @@
         color: var(--color-grey);
         font-weight: var(--sans-normal);
         text-decoration: none;
-        font-size: var(--typo-scale-M)rem;
+        font-size: var(--scale-M)rem;
     }
     a:hover,
     a:focus,
@@ -134,8 +134,8 @@
 
 /* quotes */
     blockquote {
-        font-size: var(--typo-scale-XL)rem;
-        line-height: var(--typo-scale-XXL);
+        font-size: var(--scale-XL)rem;
+        line-height: var(--scale-XXL);
     }
 
 /**
