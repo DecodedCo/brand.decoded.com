@@ -14,7 +14,7 @@
     "autoprefixer": "^6.0.3",
     "babel": "^5.8.23",
     "babel-core": "^5.8.25",
-    "babel-loader": "^5.3.2",
+    "babelify": "^6.4.0",
     "browserify": "^11.2.0",
     "css-loader": "^0.19.0",
     "del": "^2.0.2",
@@ -23,12 +23,18 @@
     "gulp": "^3.9.0",
     "gulp-concat": "^2.6.0",
     "gulp-declare": "^0.3.0",
+    "gulp-define-module": "^0.1.4",
     "gulp-handlebars": "^4.0.0",
-
+    "gulp-jscs": "^3.0.1",
+    "gulp-jshint": "^1.11.2",
     "gulp-postcss": "^6.0.1",
+    "gulp-rename": "^1.2.2",
     "gulp-util": "^3.0.6",
     "gulp-wrap": "^0.11.0",
     "handlebars": "^4.0.3",
+    "jshint-stylish": "^2.0.1",
+    "map-stream": "0.0.6",
+    "merge-stream": "^1.0.0",
     "normalize.css": "^3.0.3",
     "partialify": "^3.1.5",
     "postcss": "^5.0.10",
@@ -41,18 +47,7 @@
     "source-sans-pro": "git://github.com/adobe-fonts/source-sans-pro.git#release",
     "source-serif-pro": "git://github.com/adobe-fonts/source-serif-pro.git#release",
     "stream-browserify": "^2.0.1",
-    "vinyl-source-stream": "^1.1.0",
-    "webpack": "^1.12.2",
-    "webpack-dev-server": "^1.12.0"
-  },
-  "devDependencies": {
-    "handlebars-loader": "^1.1.4",
-    "http-proxy": "^1.11.2",
-    "jshint-stylish": "^2.0.1",
-    "gulp-jscs": "^3.0.1",
-    "gulp-jshint": "^1.11.2",
-    "map-stream": "0.0.6",
-    "merge-stream": "^1.0.0"
+    "vinyl-source-stream": "^1.1.0"
   },
   "repository": {
     "type": "git",

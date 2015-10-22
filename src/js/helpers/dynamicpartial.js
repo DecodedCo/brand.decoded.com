@@ -14,4 +14,4 @@ function partial (template, context, opts) {
     return new Handlebars.SafeString(f(context));
 }
 
-Handlebars.registerHelper('partial', partial);
+// Handlebars.registerHelper('partial', partial);

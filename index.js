@@ -1,5 +1,5 @@
 var express = require('express');
-var exphbs = require('express-handlebars');
+var hbsexpress = require('express-handlebars');
 var app = express();
 
 app.set('port', (process.env.PORT || 5000));
@@ -29,17 +29,32 @@ app.use(function(request, response, next) {
 | OK, CARRY ON... |
 \*****************/
 
-app.use(express.static(__dirname + '/build'));
+app.use(express.static(__dirname + '/public'));
 
 
 // views is directory for all template files
 app.set('views', __dirname + '/src/views');
-app.engine('hbs', exphbs({
+
+
+var Handlebars = hbsexpress({
   defaultLayout: 'main',
   extname: '.hbs',
-  layoutsDir: app.get('views')+'/layouts'
-}));
+  layoutsDir:  app.get('views') + '/layouts',
+  partialsDir: [ app.get('views') + '/component-partials', app.get('views') + '/partials'],
+  templatesDir: [ app.get('views') + '/components-templates']
+});
+
+// Register `hbs.engine` with the Express app.
+app.engine('hbs', Handlebars);
 app.set('view engine', 'hbs');
+//
+// app.engine('hbs', hbsexpress({
+//   defaultLayout: 'main',
+//   extname: '.hbs',
+//   layoutsDir: app.get('views')+'/layouts',
+//   partialsDir: __dirname + '/src/components'
+// }));
+// app.set('view engine', 'hbs');
 
 app.get('/', function(request, response) {
   response.render('pages/home');

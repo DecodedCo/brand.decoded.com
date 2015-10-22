@@ -6,7 +6,7 @@ var util = require('util');
 var c = global.config = {};
 
 c.siteDir = './src';
-c.outputDir = './build';
+c.outputDir = './public';
 c.jsDir = util.format('%s/js', c.siteDir);
 c.js = util.format('%s/**/*.js', c.jsDir);
 c.jsHelpers = util.format('%s/helpers/*.js', c.jsDir);
@@ -17,11 +17,11 @@ c.fontDir = util.format('%s/fonts', c.siteDir);
 
 c.componentsDir = util.format('%s/components', c.siteDir);
 c.componentsJs = util.format('%s/**/*.js', c.componentsDir);
-// partials start with an underscore
-c.templatePartials = util.format('%s/**/_*.hbs', c.siteDir);
+c.componentsCss = util.format('%s/**/*.css', c.componentsDir);
+//partials start with an underscore
+c.componentPartials = util.format('%s/**/_*.hbs', c.componentsDir);
 // templates have no underscore
-c.templates = util.format('%s/**/[^_]*.hbs', c.siteDir);
-c.allTemplates = util.format('%s/**/*.hbs', c.jsDir);
+c.componentTemplates = util.format('%s/**/[^_]*.hbs', c.siteDir);
 
 c.lintableBrowserJs = [c.js, '!' + c.jsHelpers];
 c.lintableNodeJs = ['gulpfile.js', 'gulp-tasks/*.js'];
@@ -40,11 +40,11 @@ gulp.task('start', function (cb) {
 });
 
 gulp.task('build', function (cb) {
-    seq('clean', ['css', 'handlebars', 'browserify'], cb);
+    seq('clean', ['css', 'component-templates', 'browserify'], cb);
 });
 
 gulp.task('watch', function () {
-    gulp.watch(c.css, ['css']);
-    gulp.watch(c.allTemplates, ['handlebars']);
+    gulp.watch([c.css, c.componentsCss], ['css']);
+    gulp.watch([c.componentPartials,c.componentTemplates], ['component-templates']);
     gulp.watch([c.js, c.componentsJs], ['browserify']);
 });

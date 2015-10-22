@@ -1,5 +1,5 @@
-@import "source-sans-pro/source-sans-pro.css";
-@import "source-serif-pro/source-serif-pro.css";
+@import "_source-sans-pro.css";
+@import "_source-serif-pro.css";
 /* containers */
 
     html {

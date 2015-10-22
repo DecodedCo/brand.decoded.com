@@ -50,6 +50,6 @@ module.exports = function () {
     return merge(dynamicpartials, partials, templates)
         .pipe(concat('templates.js'))
         // Add the Handlebars module in the final output
-        .pipe(wrap('var Handlebars = require("../../node_modules/handlebars/dist/handlebars.runtime.min");\n <%= contents %>'))
+        // .pipe(wrap('var Handlebars = require("../../node_modules/handlebars/dist/handlebars.runtime.min");\n <%= contents %>'))
         .pipe(gulp.dest(global.config.outputDir + '/js'));
 };

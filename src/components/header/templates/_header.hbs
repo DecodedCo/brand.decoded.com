@@ -1,0 +1,15 @@
+<header class="header-bar header-bar-fixed" role="navigation">
+  {{> header-brand this }}
+
+  {{#if appName }}
+    <span class="name">{{appName}}</span>
+  {{/if}}
+
+  {{#if nav}}
+    <nav id="nav-main" class="navbar-left hidden-print">
+        {{> nav-list this }}
+    </nav>
+  <a id="nav-toggle" class=""><span></span></a>
+  {{/if}}
+
+</header>

@@ -1,0 +1,17 @@
+{
+  "name": "source-serif-pro",
+  "version": "1.17.0",
+  "license": "OFL-1.1",
+  "bugs": {
+    "url": "https://github.com/adobe-fonts/source-serif-pro/issues"
+  },
+  "homepage": "https://github.com/adobe-fonts/source-serif-pro",
+  "gitHead": "1e3b9bca85102982539bb3861c8b89f071398234",
+  "readme": "# Source Serif Pro\n\nSource Serif Pro is a set of OpenType fonts to complement the [Source Sans Pro](https://github.com/adobe-fonts/source-sans-pro) family.\nIn addition to a functional OpenType font, this open source project provides all of the source files that were used to build this OpenType font by using the AFDKO makeotf tool.\n\n## Font installation instructions\n\n* [Mac OS X](http://support.apple.com/kb/HT2509)\n* [Windows](https://www.microsoft.com/en-us/Typography/TrueTypeInstall.aspx)\n* [Linux/Unix-based systems](https://github.com/adobe-fonts/source-code-pro/issues/17#issuecomment-8967116)\n* Bower<br/>\n\t`bower install git://github.com/adobe-fonts/source-serif-pro.git#release`\n* npm<br/>\n\t`npm install --fetch-only git://github.com/adobe-fonts/source-serif-pro.git#release`\n\n## Getting Involved\n\nSend suggestions for changes to the Source Serif OpenType font project maintainer, [Frank Grießhammer](mailto:opensourcefonts@adobe.com?subject=[GitHub] Source Serif Pro), for consideration.\n\n## Further information\n\nFor information about the design and background of Source Serif, please refer to the [official font readme file](http://www.adobe.com/products/type/font-information/source-serif-pro-readme.html).\n",
+  "readmeFilename": "README.md",
+  "description": "Source Serif Pro is a set of OpenType fonts to complement the [Source Sans Pro](https://github.com/adobe-fonts/source-sans-pro) family. In addition to a functional OpenType font, this open source project provides all of the source files that were used to build this OpenType font by using the AFDKO makeotf tool.",
+  "_id": "source-serif-pro@1.17.0",
+  "_shasum": "ee479b629d47356c289e4f2c3125e5086fb4eb37",
+  "_from": "git://github.com/adobe-fonts/source-serif-pro.git#release",
+  "_resolved": "git://github.com/adobe-fonts/source-serif-pro.git#1e3b9bca85102982539bb3861c8b89f071398234"
+}

@@ -6,7 +6,7 @@ require('../../js/helpers/jquery.document.ready.js');
 var d = d || {};
 d.nav = {
     // load handlebar templates
-    templates: require('../../../build/js/templates'),
+    templates: require('../../../public/js/templates'),
     // set defaults
     defaults: {
         app:[
@@ -33,24 +33,24 @@ d.nav = {
         // shortcut variable
         var t = d.nav.templates.src.components.nav.templates;
         // element the nav renders in
-        var header = document.querySelector(d.nav.defaults.navElement);
+        var navElement = document.querySelector(d.nav.defaults.navElement);
         // read config, passed in JS wins over data-attr
-        var newConfig = config || JSON.parse(header.getAttribute('data-config')) || {};
+        var newConfig = config || JSON.parse(navElement.getAttribute('data-config')) || {};
         d.nav.makeConfig(newConfig);
-        // render header
-        header.innerHTML = t.header(d.nav.config);
+        // render navElement
+        navElement.innerHTML = t.header(d.nav.config);
 
         // setup context nav
-        var contentWraper = document.createElement('section');
-        var contextNav = document.createElement('nav');
-        contextNav.className = 'd-nav-context';
-        // element the main app renders in
-        var main = document.querySelector(d.nav.config.mainElement);
-
-        contentWraper.appendChild(contextNav);
-        contentWraper.appendChild(main);
-
-        document.body.insertBefore(contentWraper, header.nextSibling);
+        // var contentWraper = document.createElement('section');
+        // var contextNav = document.createElement('nav');
+        // contextNav.className = 'nav-context';
+        // // element the main app renders in
+        // var main = document.querySelector(d.nav.config.mainElement);
+        //
+        // contentWraper.appendChild(contextNav);
+        // contentWraper.appendChild(main);
+        //
+        // document.body.insertBefore(contentWraper, navElement.nextSibling);
 
         // document.body.className += document.body.className ? ' has-d-nav' : 'has-d-nav';
 
@@ -74,6 +74,6 @@ $(function () {
     // then init in JS with d.nav.iit(config) and pass config object
     if (window.dNavInit === undefined || window.dNavInit === true) {
         d.nav.init();
-        console.log('the big d', d); 
+        console.log('the big d', d);
     }
 });

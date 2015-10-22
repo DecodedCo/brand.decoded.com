@@ -11,11 +11,16 @@ var partialify = require('partialify/custom');
 var gulp = require('gulp');
 var gutil = require('gulp-util');
 var merge = require('merge-stream');
+var babelify = require('babelify');
+var path = require('path');
 
 function bundle (entrypoint, bundleFilename, outputDir) {
 
     var stream = browserify(entrypoint)
         .transform(partialify.alsoAllow('hbs'))
+        .transform(babelify.configure({
+          sourceMapRelative: path.resolve(__dirname, 'src')
+        }))
         .bundle();
 
     if (!process.env.NODE_FAIL) {
@@ -39,13 +44,13 @@ module.exports = function () {
         global.config.outputDir + '/js'
     );
 
-    var nav = bundle(
-        global.config.componentsDir + '/nav/nav.js',
-        'nav.js',
+    var components = bundle(
+        global.config.componentsDir + '/index.js',
+        'components.js',
         global.config.outputDir + '/js'
     );
 
 
-    return merge(mainApp, nav);
+    return merge(mainApp, components);
 
 };

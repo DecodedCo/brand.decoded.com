@@ -5,37 +5,17 @@
   <title>Decoded Brand Guidelines</title>
   <link rel="stylesheet" href="css/decoded.css">
   <link rel="stylesheet" href="css/guidelines.css">
+  <link rel="stylesheet" href="css/components.css">
 </head>
 <body>
   <div class="app">
-    <header id="top" role="banner">
-        <h1>Decoded Brand Guidelines</h1>
-        <a href="#nav">Navigation</a>
-    </header>
-    <nav id="nav" role="navigation" data-config='{
-    "app":[
-      {
-        "type": "text",
-        "label": "Brand Values"
-      },
-      {
-        "type": "link",
-        "label": "Mission Statement",
-        "url": "/mission"
-      },
-      {
-        "type": "link",
-        "label": "10 Commandments",
-        "url": "/commandments"
-      }
-      ]}'>
-    </nav>
+    {{> header }}
     <main role="main">
         {{{body}}}
     </main>
   </div>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
   <script src="js/main.js"></script>
-  <script src="js/nav.js"></script>
+  <script src="js/components.js"></script>
 </body>
 </html>
