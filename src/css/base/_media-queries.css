@@ -3,11 +3,9 @@
  * also change them in less/third-party/_grid.less
  */
 
-@custom-media --min (min-width: 20em);
 @custom-media --S (min-width: 30em);
 @custom-media --M (min-width: 50em);
 @custom-media --L (min-width: 65em);
-@custom-media --max (min-width: 80em);
 
 @custom-media --max-S (max-width: 29.99999em);
 @custom-media --max-M (max-width: 49.99999em);
