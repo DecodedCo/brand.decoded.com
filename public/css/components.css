@@ -38,6 +38,9 @@
   float: right;
   margin-top: 1rem;
 }
-.navbar li {
+.nav li {
   list-style-type: none;
+}
+.nav-aside .nav-list {
+  text-indent: 0;
 }

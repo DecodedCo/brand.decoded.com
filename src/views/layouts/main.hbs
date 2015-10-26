@@ -8,9 +8,12 @@
   <link rel="stylesheet" href="css/components.css">
 </head>
 <body>
-  <div class="app">
+  <div class="app grid wrap">
     {{> header-brochure this }}
-    <main role="main" class="grid wrap">
+    {{#routes}}
+      {{> nav-aside this}}
+    {{/routes}}
+    <main role="main" class="unit two-thirds">
         {{{body}}}
     </main>
   </div>
