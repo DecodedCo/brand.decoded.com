@@ -3,7 +3,7 @@
 
 .example {
   margin: var(--scale-XXXL)rem 0;
-  padding: var(--scale-S)rem;
+  padding: var(--scale-XL)rem;
   box-shadow: 0 0 3px var(--color-grey-light-alpha);
   position: relative;
 }

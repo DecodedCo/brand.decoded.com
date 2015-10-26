@@ -51,8 +51,8 @@ The context is placed above the main heading.
 Example:
 
 <div class="example">
-  <h1>Header One in Light and Size XXL and Black</h1>
-  <h2>Header Two in Light and Size XL and Grey</h2>
+  <h1>Header One in Light and Size XXL</h1>
+  <h2>Header Two in Light and Size XL</h2>
   <h3>Header Three in Semibold and Size XL</h3>
   <h4>Header Four in Semibold and Size L</h4>
 </div>

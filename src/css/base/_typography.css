@@ -29,7 +29,7 @@
     h1 {
         font-size: var(--scale-XXL)rem;
         line-height: 1.125;
-        margin: var(--scale-XXL)rem 0;
+        margin: var(--scale-XXXL)rem 0;
     }
 
     h1.headline {
@@ -37,13 +37,13 @@
         font-size: var(--scale-XXXXL)rem;
         line-height: 1;
         font-weight: var(--serif-normal);
-        margin: var(--scale-XXXL)rem 0;
+        margin: var(--scale-XXXXL)rem 0;
     }
 
     h2 {
         font-size: var(--scale-XL)rem;
         line-height: 1.125;
-        margin: var(--scale-L)rem 0;
+        margin: var(--scale-XL)rem 0;
         color: var(--color-grey-light);
     }
 
@@ -51,14 +51,37 @@
         font-size: var(--scale-XL)rem;
         line-height: 1;
         font-weight: var(--sans-bold);
-        margin: var(--scale-L)rem 0;
+        margin: var(--scale-XL)rem 0;
     }
 
     h4, h5, h6 {
         font-size: var(--scale-L)rem;
         line-height: 1.125;
         font-weight: var(--sans-bold);
-        margin: var(--scale-M)rem 0;
+        margin: var(--scale-L)rem 0;
+    }
+
+    /*
+    Remove margins when it's the first
+    or last element in the parent container
+    */
+
+    h1:first-child,
+    h2:first-child,
+    h3:first-child,
+    h4:first-child,
+    h5:first-child,
+    h6:first-child {
+      margin-top:0;
+    }
+
+    h1:last-child,
+    h2:last-child,
+    h3:last-child,
+    h4:last-child,
+    h5:last-child,
+    h6:last-child {
+      margin-bottom:0;
     }
 
 /* text */
@@ -175,13 +198,57 @@
     margin-bottom: 1rem;
  }
 
+/* lists  are only formatted within .typography or with .styled*/
 
+.typography ol,
+.typography ul {
+  margin: var(--scale-XXL)rem 0;
+  padding: 0;
+}
 
-/* lists */
-
- .typography li p {
+.typography li p {
   margin: 0;
 }
- .typography li {
-  margin-bottom: var(--scale-M)rem;
+.typography li {
+  margin: 0 0 var(--scale-M)rem 0;
+}
+
+.typography ul li,
+ul.styled li {
+  list-style-type: none;
+  position: relative;
+}
+
+.typography ul li::before,
+ul.styled li::before {
+  content: "⟩";
+  font-size: var(--scale-S)em;
+  line-height: 1;
+  position: absolute;
+  left: -3em;
+  width: 2em;
+  margin-top: .25em;
+  text-align: right;
+  color: var(--color-grey-light);
+}
+
+
+.typography ol li,
+ol.styled li {
+  counter-increment: step-counter;
+  list-style-type: none;
+  position: relative;
+}
+
+.typography ol li::before,
+ol.styled li::before {
+  content: counter(step-counter, decimal-leading-zero);
+  font-size: var(--scale-S)em;
+  line-height: 1;
+  position: absolute;
+  left: -var(--scale-XXL)em;
+  width: var(--scale-XL)em;
+  margin-top: .25em;
+  text-align: right;
+  color: var(--color-grey-light);
 }

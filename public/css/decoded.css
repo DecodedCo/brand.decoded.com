@@ -720,7 +720,7 @@ html {
     h1 {
         font-size: 2.3rem;
         line-height: 1.125;
-        margin: 2.3rem 0;
+        margin: 3.7rem 0;
     }
 
     h1.headline {
@@ -728,13 +728,13 @@ html {
         font-size: 6.7rem;
         line-height: 1;
         font-weight: 400;
-        margin: 3.7rem 0;
+        margin: 6.7rem 0;
     }
 
     h2 {
         font-size: 1.34rem;
         line-height: 1.125;
-        margin: 1.14rem 0;
+        margin: 1.34rem 0;
         color: rgb(212,210,202);
     }
 
@@ -742,14 +742,37 @@ html {
         font-size: 1.34rem;
         line-height: 1;
         font-weight: 500;
-        margin: 1.14rem 0;
+        margin: 1.34rem 0;
     }
 
     h4, h5, h6 {
         font-size: 1.14rem;
         line-height: 1.125;
         font-weight: 500;
-        margin: 1rem 0;
+        margin: 1.14rem 0;
+    }
+
+    /*
+    Remove margins when it's the first
+    or last element in the parent container
+    */
+
+    h1:first-child,
+    h2:first-child,
+    h3:first-child,
+    h4:first-child,
+    h5:first-child,
+    h6:first-child {
+      margin-top:0;
+    }
+
+    h1:last-child,
+    h2:last-child,
+    h3:last-child,
+    h4:last-child,
+    h5:last-child,
+    h6:last-child {
+      margin-bottom:0;
     }
 
 /* text */
@@ -866,15 +889,59 @@ html {
     margin-bottom: 1rem;
  }
 
+/* lists  are only formatted within .typography or with .styled*/
 
+.typography ol,
+.typography ul {
+  margin: 2.3rem 0;
+  padding: 0;
+}
 
-/* lists */
-
- .typography li p {
+.typography li p {
   margin: 0;
 }
- .typography li {
-  margin-bottom: 1rem;
+.typography li {
+  margin: 0 0 1rem 0;
+}
+
+.typography ul li,
+ul.styled li {
+  list-style-type: none;
+  position: relative;
+}
+
+.typography ul li::before,
+ul.styled li::before {
+  content: "⟩";
+  font-size: 0.83em;
+  line-height: 1;
+  position: absolute;
+  left: -3em;
+  width: 2em;
+  margin-top: .25em;
+  text-align: right;
+  color: rgb(212,210,202);
+}
+
+
+.typography ol li,
+ol.styled li {
+  counter-increment: step-counter;
+  list-style-type: none;
+  position: relative;
+}
+
+.typography ol li::before,
+ol.styled li::before {
+  content: counter(step-counter, decimal-leading-zero);
+  font-size: 0.83em;
+  line-height: 1;
+  position: absolute;
+  left: -2.3em;
+  width: 1.34em;
+  margin-top: .25em;
+  text-align: right;
+  color: rgb(212,210,202);
 }
 /*
  * Gridism
