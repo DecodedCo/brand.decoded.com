@@ -1,1 +1,3 @@
+@import "base/_variables.css";
+@import "base/_media-queries.css";
 @import "../components";

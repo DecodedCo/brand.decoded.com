@@ -22,9 +22,3 @@
         display: none !important;
     }
 }
-
-@media (--max) {
-    *.hidden-on-max {
-        display: none !important;
-    }
-}

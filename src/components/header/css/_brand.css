@@ -1,4 +1,5 @@
-.nav-brand {
+.header-brand {
   width: 150px;
   float: right;
+  margin-top: var(--scale-M)rem;
 }

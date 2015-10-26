@@ -876,12 +876,6 @@ html {
  * https://github.com/cobyism/gridism
  */
 
-/* Preserve some sanity */
-.grid,
-.unit {
-  box-sizing: border-box;
-}
-
 /* Set up some rules to govern the grid */
 .grid {
   display: block;
@@ -890,12 +884,12 @@ html {
 .grid .unit {
   float: left;
   width: 100%;
-  padding: 10px;
+  padding: 0.83;
 }
 
 /* This ensures the outer gutters are equal to the (doubled) inner gutters. */
-.grid .unit:first-child { padding-left: 20px; }
-.grid .unit:last-child { padding-right: 20px; }
+.grid .unit:first-child { padding-left: 1; }
+.grid .unit:last-child { padding-right: 1; }
 
 /* Nested grids already have padding though, so let’s nuke it */
 .unit .unit:first-child { padding-left: 0; }
@@ -953,7 +947,7 @@ html {
 .pull-right   { float: right; }
 
 /* Responsive Stuff */
-@media screen and (max-width: 568px) {
+@media(max-width: 29.99999em) {
   /* Stack anything that isn’t full-width on smaller screens */
   .grid .unit {
     width: 100% !important;
@@ -975,7 +969,7 @@ html {
 }
 
 /* Expand the wrap a bit further on larger screens */
-@media screen and (min-width: 1180px) {
+@media(min-width: 65em) {
   .wider .grid {
     max-width: 1180px;
     margin: 0 auto;

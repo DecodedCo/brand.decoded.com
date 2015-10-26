@@ -47,17 +47,10 @@ var Handlebars = hbsexpress({
 // Register `hbs.engine` with the Express app.
 app.engine('hbs', Handlebars);
 app.set('view engine', 'hbs');
-//
-// app.engine('hbs', hbsexpress({
-//   defaultLayout: 'main',
-//   extname: '.hbs',
-//   layoutsDir: app.get('views')+'/layouts',
-//   partialsDir: __dirname + '/src/components'
-// }));
-// app.set('view engine', 'hbs');
 
 app.get('/', function(request, response) {
-  response.render('pages/home');
+  var locals = { appName : "Decoded Brand Guidelines" };
+  response.render('pages/home', locals);
 });
 
 app.listen(app.get('port'), function() {

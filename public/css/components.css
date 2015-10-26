@@ -1,5 +1,38 @@
-.nav-brand {
-  width: 130px;
+/* variables */
+:root {
+    /* fonts */
+
+    /* colours */
+
+    /* transitions */
+
+    /* Buttons & Forms*/
+
+    /* Decoded Scale */
+
+    /* z-index scale */
+}
+/*
+ * media query aliases
+ * also change them in less/third-party/_grid.less
+ */
+
+
+/* vertical breakpoints */
+.header-bar {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.header-bar-fixed {
+  position: fixed;
+}
+.header-brand {
+  width: 150px;
   float: right;
-  margin: 2em; 
+  margin-top: 1rem;
+}
+.navbar li {
+  list-style-type: none;
 }
