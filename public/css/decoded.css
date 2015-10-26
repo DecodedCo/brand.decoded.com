@@ -706,30 +706,28 @@ html {
 /* headings */
     h1, h2, h3, h4, h5, h6 {
         font-family: "Source Sans Pro", Helvetica, sans-serif;
+        font-weight: 200;
     }
 
     h1 {
-        font-family: "Source Serif Pro", serif;
-        font-weight: 400;
         font-size: 2.3rem;
         line-height: 1.125;
         margin: 2rem 0;
     }
 
     h1.headline {
+        font-family: "Source Serif Pro", serif;
         font-size: 6.7rem;
         line-height: 1;
-        text-transform: uppercase;
         font-weight: 200;
         margin: 4rem 0;
     }
 
     h2 {
-        font-size: 3.7rem;
+        font-size: 1.34rem;
         line-height: 1.125;
-        font-family: "Source Serif Pro", serif;
-        font-weight: 400;
         margin: 1rem 0;
+        color: rgb(212,210,202);
     }
 
     h3 {
@@ -739,26 +737,11 @@ html {
         margin: 1rem 0;
     }
 
-    h4 {
+    h4, h5, h6 {
         font-size: 1.14rem;
         line-height: 1.125;
         font-weight: 500;
         margin: .6rem 0;
-    }
-
-    h4 {
-        font-size: 1rem;
-        line-height: 1.27777777;
-        text-transform: uppercase;
-        font-weight: 500;
-        margin: .4rem 0;
-    }
-    h6 {
-        font-size: 1rem;
-        line-height: 1.27777777;
-        text-transform: uppercase;
-        font-weight: 200;
-        margin: .4rem 0;
     }
 
 /* text */
@@ -865,10 +848,6 @@ html {
 
  .typography p {
     margin-bottom: 1rem;
- }
-
- .courseName span {
-   font-weight: 200;
  }
 /*
  * Gridism

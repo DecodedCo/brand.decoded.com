@@ -28,6 +28,11 @@
 .header-bar-fixed {
   position: fixed;
 }
+
+
+.header-brochure .name {
+  margin-top: 5rem;
+}
 .header-brand {
   width: 150px;
   float: right;
