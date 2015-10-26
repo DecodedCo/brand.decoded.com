@@ -44,7 +44,7 @@
         font-size: var(--scale-XL)rem;
         line-height: 1.125;
         margin: var(--scale-XL)rem 0;
-        color: var(--color-grey-light);
+        color: var(--color-grey-medium);
     }
 
     h3 {
@@ -110,7 +110,7 @@
 
 /* links */
     a {
-        color: var(--color-grey);
+        color: var(--color-grey-dark);
         font-weight: var(--sans-normal);
         text-decoration: none;
         font-size: var(--scale-M)rem;
@@ -126,16 +126,16 @@
         color: var(--color-grey);
         font-weight: var(--sans-normal);
         text-decoration: none;
-        border-bottom: 1px solid var(--color-grey-lighter);
-        box-shadow: inset 0 -2px 0 var(--color-grey-lighter);
+        border-bottom: 1px solid var(--color-grey-medium);
+        box-shadow: inset 0 -2px 0 var(--color-grey-medium);
     }
     .typography a:hover,
     .typography a:focus,
     .typography a:active {
         color: var(--color-grey);
         text-decoration: none;
-        border-bottom: 1px solid var(--color-grey-lighter);
-        box-shadow: inset 0 -4px 0 var(--color-grey-lighter);
+        border-bottom: 1px solid var(--color-grey-medium);
+        box-shadow: inset 0 -4px 0 var(--color-grey-medium);
     }
 
     a.no-styles{
@@ -229,7 +229,7 @@ ul.styled li::before {
   width: 2em;
   margin-top: .25em;
   text-align: right;
-  color: var(--color-grey-light);
+  color: var(--color-grey-medium);
 }
 
 
@@ -250,5 +250,5 @@ ol.styled li::before {
   width: var(--scale-XL)em;
   margin-top: .25em;
   text-align: right;
-  color: var(--color-grey-light);
+  color: var(--color-grey-medium);
 }

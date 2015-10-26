@@ -4,7 +4,7 @@
 .example {
   margin: var(--scale-XXXL)rem 0;
   padding: var(--scale-XL)rem;
-  box-shadow: 0 0 3px var(--color-grey-light-alpha);
+  box-shadow: 0 0 3px var(--color-grey-medium-alpha);
   position: relative;
 }
 
@@ -15,6 +15,6 @@
   left: 0;
   display: block;
   width: 100%;
-  color: var(--color-grey-light);
+  color: var(--color-grey-medium);
   font-size: var(--scale-S)rem;
 }

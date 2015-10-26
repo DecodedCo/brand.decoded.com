@@ -13,14 +13,14 @@
         --color-white: #fff;
         --color-black: #000;
 
-        --color-grey-dark: rgb(37,37,37);
-        --color-grey-dark-alpha: rgba(37,37,37, .4);
-        --color-grey: rgb(83,80,75);
-        --color-grey-alpha: rgba(83,80,75,.4);
-        --color-grey-light: rgb(212,210,202);
-        --color-grey-light-alpha: rgba(212,210,202,.5);
-        --color-grey-lighter: rgb(242,241,239);
-        --color-grey-lighter-alpha: rgba(242,241,239,.5);
+        --color-grey-darker: rgb(37,37,37);
+        --color-grey-darker-alpha: rgba(37,37,37, .4);
+        --color-grey-dark: rgb(83,80,75);
+        --color-grey-dark-alpha: rgba(83,80,75,.4);
+        --color-grey-medium: rgb(212,210,202);
+        --color-grey-medium-alpha: rgba(212,210,202,.5);
+        --color-grey-light: rgb(242,241,239);
+        --color-grey-light-alpha: rgba(242,241,239,.5);
 
         --color-yellow: rgb(254, 248, 0);
         --color-yellow-light: rgb(254,248,127);
