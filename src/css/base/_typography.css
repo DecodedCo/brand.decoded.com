@@ -13,6 +13,14 @@
     }
 
 /* headings */
+    .context {
+      margin-top: var(--scale-L)rem;
+      font-size: var(--scale-M)rem;
+    }
+    .context + h1 {
+      margin-top: 0;
+    }
+
     h1, h2, h3, h4, h5, h6 {
         font-family: var(--font-sans);
         font-weight: var(--sans-normal);
@@ -21,21 +29,21 @@
     h1 {
         font-size: var(--scale-XXL)rem;
         line-height: 1.125;
-        margin: 2rem 0;
+        margin: var(--scale-XXL)rem 0;
     }
 
     h1.headline {
         font-family: var(--font-serif);
         font-size: var(--scale-XXXXL)rem;
         line-height: 1;
-        font-weight: var(--sans-normal);
-        margin: 4rem 0;
+        font-weight: var(--serif-normal);
+        margin: var(--scale-XXXL)rem 0;
     }
 
     h2 {
         font-size: var(--scale-XL)rem;
         line-height: 1.125;
-        margin: 1rem 0;
+        margin: var(--scale-L)rem 0;
         color: var(--color-grey-light);
     }
 
@@ -43,20 +51,28 @@
         font-size: var(--scale-XL)rem;
         line-height: 1;
         font-weight: var(--sans-bold);
-        margin: 1rem 0;
+        margin: var(--scale-L)rem 0;
     }
 
     h4, h5, h6 {
         font-size: var(--scale-L)rem;
         line-height: 1.125;
         font-weight: var(--sans-bold);
-        margin: .6rem 0;
+        margin: var(--scale-M)rem 0;
     }
 
 /* text */
     p {
         font-size: var(--scale-M)rem;
-        line-height: 1.3125;
+        line-height: var(--scale-L);
+        color: var(--color-grey-dark);
+    }
+
+    .lead {
+        font-family: var(--font-serif);
+        font-weight: var(--serif-normal);
+        font-size: var(--scale-L)rem;
+        line-height: var(--scale-XL);
         color: var(--color-grey-dark);
     }
 
@@ -158,3 +174,14 @@
  .typography p {
     margin-bottom: 1rem;
  }
+
+
+
+/* lists */
+
+ .typography li p {
+  margin: 0;
+}
+ .typography li {
+  margin-bottom: var(--scale-M)rem;
+}

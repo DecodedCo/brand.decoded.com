@@ -1,3 +1,20 @@
-body {
-  font-family: sans-serif;
+@import "base/_variables.css";
+@import "base/_media-queries.css";
+
+.example {
+  margin: var(--scale-XXXL)rem 0;
+  padding: var(--scale-S)rem;
+  box-shadow: 0 0 3px var(--color-grey-light-alpha);
+  position: relative;
+}
+
+.example:before {
+  content: 'Example:';
+  position: absolute;
+  top: -var(--scale-XL)rem;
+  left: 0;
+  display: block;
+  width: 100%;
+  color: var(--color-grey-light);
+  font-size: var(--scale-S)rem;
 }

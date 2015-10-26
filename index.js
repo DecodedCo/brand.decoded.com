@@ -113,7 +113,7 @@ function markdownRoute(routePath){
       var md = marked(data.toString());
       // formate route string
       var route = routePath.replace('.md', '');
-      var route = route.replace('routes', '');
+      var route = route.replace('pages', '');
       // init route
       app.get(route, function(request, response) {
         var locals = { appName : "Decoded Brand Guidelines", md: md};
