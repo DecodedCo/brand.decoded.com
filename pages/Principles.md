@@ -1,4 +1,4 @@
-# How We create
+# How we create
 
 1. **Start with needs**
 
