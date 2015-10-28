@@ -37,3 +37,19 @@
   color: rgb(212,210,202);
   font-size: 0.83rem;
 }
+
+
+.swatches, .grid.swatches {
+  text-align: center;
+  margin: 3.7rem 0;
+}
+
+.swatches p {
+  margin: 0;
+}
+.swatch {
+  width: 6.7rem;
+  height: 6.7rem;
+  border-radius: 100%;
+  margin: 0 auto 1rem;
+}

@@ -1,0 +1,75 @@
+.bg-yellow {
+  background-color: var(--color-yellow);
+}
+
+.bg-black {
+  background-color: var(--color-black);
+}
+
+.bg-white {
+  background-color: var(--color-white);
+}
+
+.bg-grey-dark {
+  background-color: var(--color-grey-dark);
+}
+
+.bg-grey-medium {
+  background-color: var(--color-grey-medium);
+}
+
+.bg-grey-light {
+  background-color: var(--color-grey-light);
+}
+
+.bg-yellow-light {
+  background-color: var(--color-yellow-light);
+}
+
+.bg-red-light {
+  background-color: var(--color-red-light);
+}
+
+.bg-orange-light {
+  background-color: var(--color-orange-light);
+}
+
+.bg-green-light {
+  background-color: var(--color-green-light);
+}
+
+.bg-blue-light {
+  background-color: var(--color-blue-light);
+}
+
+.bg-pink-light {
+  background-color: var(--color-pink-light);
+}
+
+.bg-purple-light {
+  background-color: var(--color-purple-light);
+}
+
+.bg-red {
+  background-color: var(--color-red);
+}
+
+.bg-orange {
+  background-color: var(--color-orange);
+}
+
+.bg-green {
+  background-color: var(--color-green);
+}
+
+.bg-blue {
+  background-color: var(--color-blue);
+}
+
+.bg-pink {
+  background-color: var(--color-pink);
+}
+
+.bg-purple {
+  background-color: var(--color-purple);
+}

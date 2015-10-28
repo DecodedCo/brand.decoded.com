@@ -18,3 +18,19 @@
   color: var(--color-grey-medium);
   font-size: var(--scale-S)rem;
 }
+
+
+.swatches, .grid.swatches {
+  text-align: center;
+  margin: var(--scale-XXXL)rem 0;
+}
+
+.swatches p {
+  margin: 0;
+}
+.swatch {
+  width: var(--scale-XXXXL)rem;
+  height: var(--scale-XXXXL)rem;
+  border-radius: 100%;
+  margin: 0 auto var(--scale-M)rem;
+}
