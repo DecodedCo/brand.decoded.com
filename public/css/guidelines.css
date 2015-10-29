@@ -47,9 +47,16 @@
 .swatches p {
   margin: 0;
 }
+  .swatches p:last-child {
+    margin-bottom: 2.3rem;
+  }
 .swatch {
   width: 6.7rem;
   height: 6.7rem;
   border-radius: 100%;
   margin: 0 auto 1rem;
+}
+
+.swatch.shadow {
+  box-shadow: 0 0 3px rgba(212,210,202,.5);
 }
