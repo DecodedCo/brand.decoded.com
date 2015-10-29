@@ -28,16 +28,9 @@
 .swatches p {
   margin: 0;
 }
-  .swatches p:last-child {
-    margin-bottom: var(--scale-XXL)rem;
-  }
 .swatch {
   width: var(--scale-XXXXL)rem;
   height: var(--scale-XXXXL)rem;
   border-radius: 100%;
   margin: 0 auto var(--scale-M)rem;
-}
-
-.swatch.shadow {
-  box-shadow: 0 0 3px var(--color-grey-medium-alpha);
 }
