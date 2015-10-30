@@ -47,13 +47,13 @@ routesHelper = function(options) {
   data.routes = [];
   app._router.stack.forEach(function(middleware){
       if(middleware.route){ // routes registered directly on the app
-          data.routes.push({label: middleware.route.path.replace('/', ' '), link: middleware.route.path, type: 'nav-link'});
+          data.routes.push({label: middleware.route.path.replace(/\//g, ' '), link: middleware.route.path.replace('/', ''), type: 'nav-link'});
           // routes.push(middleware.route);
       } else if(middleware.name === 'router'){ // router middleware
           middleware.handle.stack.forEach(function(handler){
               route = handler.route;
               // route && routes.push(route);
-              route && data.routes.push({label: route.path.replace('/', ' '), link: route.path, type: 'nav-link'});
+              route && data.routes.push({label: route.path.replace(/\//g, ' '), link: route.path.replace('/', ''), type: 'nav-link'});
           });
       }
   });
