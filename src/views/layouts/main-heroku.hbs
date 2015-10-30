@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>Decoded Brand Guidelines</title>
+  <base href="https://labs.decoded.com/brand/guidelines/">
+  <link rel="stylesheet" href="css/decoded.css">
+  <link rel="stylesheet" href="css/guidelines.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+  <div class="app grid wrap">
+    {{> header-brochure this }}
+    {{#routes}}
+      {{> nav-aside this}}
+    {{/routes}}
+    <main role="main" class="unit two-thirds">
+        {{{body}}}
+    </main>
+  </div>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/components.js"></script>
+</body>
+</html>

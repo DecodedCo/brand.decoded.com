@@ -62,9 +62,16 @@ routesHelper = function(options) {
   return options.fn(options.data);
 };
 
+// use different main templates based on environment to enable base tag
+if (process.env.NODE_ENV == 'production'){
+  var mainTemplate = 'main-heroku';
+} else {
+  var mainTemplate = 'main-dev';
+}
+
 var Handlebars = hbsexpress({
   handlebars: handlebarsCore,
-  defaultLayout: 'main',
+  defaultLayout: mainTemplate,
   extname: '.hbs',
   layoutsDir:  app.get('views') + '/layouts',
   partialsDir: [ app.get('views') + '/component-partials', app.get('views') + '/partials'],
