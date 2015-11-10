@@ -43,6 +43,7 @@ Use yellow to highlight important information, but don’t use it for random sma
     <p>#53504B</p>
     <p>rgb(83,80,75)</p>
     <p>c0 m3 y9 k67</p>
+    <p>var(**--color-grey-dark**)</p>
   </article>
 
   <article class="unit one-third">
@@ -51,6 +52,7 @@ Use yellow to highlight important information, but don’t use it for random sma
     <p>#D4D2CA</p>
     <p>rgb(212,210,202)</p>
     <p>c0 m1 y5 k17</p>
+    <p>var(**--color-grey-medium**)</p>
   </article>
 
   <article class="unit one-third">
@@ -59,6 +61,7 @@ Use yellow to highlight important information, but don’t use it for random sma
     <p>#F2F1EFM</p>
     <p>rgb(242,241,239)</p>
     <p>c0 m0 y1 k5</p>
+    <p>var(**--color-grey-light**)</p>
   </article>
 </div>
 
