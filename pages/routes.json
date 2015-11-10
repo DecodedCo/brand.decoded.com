@@ -1,0 +1,17 @@
+[
+  {
+    "label": "Principles",
+    "link": "/pages/principles",
+    "type": "nav-link"
+  },
+  {
+    "label": "Typography",
+    "link": "/pages/typography",
+    "type": "nav-link"
+  },
+  {
+    "label": "Colors",
+    "link": "/pages/colors",
+    "type": "nav-link"
+  }
+]

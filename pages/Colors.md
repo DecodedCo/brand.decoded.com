@@ -1,4 +1,4 @@
-# Colors
+# Colors [Use it!](#use-it)
 
 ## Primary Colors
 <div class="swatches grid">
@@ -190,3 +190,20 @@ Secondary colors are mainly used for infographics and interface elements. They s
 - Use full colors at full opacity.
 - Use Light Secondary Colors for backgrounds and bigger graphical elements.
 - Always use proper light colors, not alpha values of full color.
+
+
+## Use It
+
+### GDocs
+
+Our basic templates have color swatches set up.
+
+### Adobe
+
+Use our [Decoded Library]() to get all the color swatches.
+
+### Code
+
+For basic apps and web sites, link to the [decoded.css](/pages/how-to/basic-css), then use helper classes as described in the documentation.
+
+For more complex apps, include the [Decoded Style Framework](/pages/how-to/style-framework) in your app and use the variable names listed above.
