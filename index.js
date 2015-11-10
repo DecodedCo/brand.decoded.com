@@ -40,24 +40,12 @@ app.use(express.static(__dirname + '/public'));
 // views is directory for all template files
 app.set('views', __dirname + '/src/views');
 
+// load navigation from json
 routesHelper = function(options) {
   // get routes
   data = handlebarsCore.createFrame();
   var route;
-  data.routes = [];
-  app._router.stack.forEach(function(middleware){
-      if(middleware.route){ // routes registered directly on the app
-          data.routes.push({label: middleware.route.path.replace('/', ' '), link: middleware.route.path, type: 'nav-link'});
-          // routes.push(middleware.route);
-      } else if(middleware.name === 'router'){ // router middleware
-          middleware.handle.stack.forEach(function(handler){
-              route = handler.route;
-              // route && routes.push(route);
-              route && data.routes.push({label: route.path.replace('/', ' '), link: route.path, type: 'nav-link'});
-          });
-      }
-  });
-
+  data.routes = require('./pages/routes.json');
   options.data = data;
   return options.fn(options.data);
 };
@@ -83,45 +71,47 @@ app.get('/', function(request, response) {
   response.render('pages/home', locals);
 });
 
-// Initialize ALL dynamic routes including subfolders
-// read all files and folders in /routes
-function recursiveRoutes(folderName) {
-    fs.readdirSync(folderName).forEach(function(file) {
-
-        var fullName = path.join(folderName, file);
-        var stat = fs.lstatSync(fullName);
-
-        if (stat.isDirectory()) {
-        // recursively scan folders
-            recursiveRoutes(fullName);
-        } else if (file.toLowerCase().indexOf('.js') > 1) {
-        // if file is js, include it, let the js set up the routes
-            require('./' + fullName);
-        } else if (file.toLowerCase().indexOf('.md') > 1) {
-        // if the file is markdown, generate a MD route
-          markdownRoute(fullName);
-        }
-    });
-}
-
 // read the md file, parse it and render the file in MD template
-function markdownRoute(routePath){
-  fs.readFile(routePath, function (err, data) {
+function markdownRender(request, response){
+  fs.readFile('pages/' + request.params[0] + '.md', function (err, data) {
       if (err) {
           throw err;
       }
       var md = marked(data.toString());
-      // formate route string
-      var route = routePath.replace('.md', '');
-      var route = route.replace('pages', '');
-      // init route
-      app.get(route, function(request, response) {
-        var locals = { appName : "Decoded Brand Guidelines", md: md};
-        response.render('pages/md', locals);
-      });
+      var locals = { appName : "Decoded Brand Guidelines", md: md};
+      response.render('pages/md', locals);
   });
 }
-recursiveRoutes('pages'); // Initialize it
+
+function jsRender(request, response){
+  fs.readFile('pages/' + request.params[0] + '.js', function (err, data) {
+      if (err) {
+          throw err;
+      }
+      var md = marked(data.toString());
+      var locals = { appName : "Decoded Brand Guidelines", md: md};
+      response.render('pages/md', locals);
+  });
+}
+
+function dynamicPages(request, response){
+  var locals = { appName : "Decoded Brand Guidelines" };
+
+  var mdPages = require('domain').create();
+  mdPages.on('error', function(err){
+      // handle the error safely
+      console.log('No MD page found: ', err);
+      response.render('pages/home', locals);
+  });
+
+  // catch the uncaught errors in this asynchronous or synchronous code block
+  mdPages.run(function(){
+      markdownRender(request, response);
+  });
+}
+
+app.get('/pages/*', dynamicPages);
+
 
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
