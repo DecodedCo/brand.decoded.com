@@ -19,11 +19,13 @@
 
 
 /* vertical breakpoints */
-
+body {
+  background-color: #FEFEFE;
+}
 .example {
   margin: 3.7rem 0;
   padding: 1.34rem;
-  box-shadow: 0 0 3px rgba(212,210,202,.5);
+  box-shadow: 0 0 3px rgba(186,184,176,.5);
   position: relative;
 }
 
@@ -34,7 +36,7 @@
   left: 0;
   display: block;
   width: 100%;
-  color: rgb(212,210,202);
+  color: rgb(186,184,176);
   font-size: 0.83rem;
 }
 
@@ -58,5 +60,21 @@
 }
 
 .swatch.shadow {
-  box-shadow: 0 0 3px rgba(212,210,202,.5);
+  box-shadow: 0 0 3px rgba(186,184,176,.5);
+}
+
+/* tables in MD */
+table {
+  width: 100%;
+}
+th, td {
+  border-bottom: 1px solid rgb(186,184,176);
+  padding: 0.6rem 0.6rem 0.6rem 0;
+  text-align: left;
+  color: rgb(186,184,176);
+  font-weight: 200;
+}
+td {
+  border-bottom: 1px solid rgb(242,241,239);
+  color: #333333;
 }

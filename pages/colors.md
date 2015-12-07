@@ -14,8 +14,8 @@
   <article class="unit one-third">
     <div class="swatch bg-black"></div>
     <p>**Black**</p>
-    <p>#000000</p>
-    <p>rgb(0,0,0)</p>
+    <p>#333333</p>
+    <p>rgb(51,51,51)</p>
     <p>c0 m0 y0 k100</p>
     <p>var(**--color-black**)</p>
   </article>
@@ -23,8 +23,8 @@
   <article class="unit one-third">
     <div class="swatch shadow bg-white"></div>
     <p>**White**</p>
-    <p>#FFFFFF</p>
-    <p>rgb(255,255,255)</p>
+    <p>#FEFEFE</p>
+    <p>rgb(254,254,254)</p>
     <p>c0 m0 y0 k0</p>
     <p>var(**--color-white**)</p>
   </article>
@@ -49,16 +49,16 @@ Use yellow to highlight important information, but don’t use it for random sma
   <article class="unit one-third">
     <div class="swatch bg-grey-medium"></div>
     <p>**Medium Grey**</p>
-    <p>#D4D2CA</p>
-    <p>rgb(212,210,202)</p>
-    <p>c0 m1 y5 k17</p>
+    <p>#BAB8B0</p>
+    <p>rgb(186,184,176)</p>
+    <p>c0 m1 y5 k27</p>
     <p>var(**--color-grey-medium**)</p>
   </article>
 
   <article class="unit one-third">
     <div class="swatch bg-grey-light"></div>
     <p>**Light Grey**</p>
-    <p>#F2F1EFM</p>
+    <p>#F2F1EF</p>
     <p>rgb(242,241,239)</p>
     <p>c0 m0 y1 k5</p>
     <p>var(**--color-grey-light**)</p>

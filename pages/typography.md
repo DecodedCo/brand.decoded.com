@@ -1,4 +1,4 @@
-# Typography
+# Typography [Use it!](#use-it)
 
 ## Font
 The Source Pro Family of fonts give Decoded communications and products a consistent appearance and transport our values with ease.
@@ -18,7 +18,6 @@ It complements our main Source Sans Pro and adds sophistication and a more conve
 - Use Source Serif as an accent, not as the main font.
 - Wherever possible we only use Source Serif Pro Regular
 - If unavailable we fall back to Georgia.
-
 
 ## Hierarchy
 
@@ -127,3 +126,28 @@ A lead paragraph introduces the reader into the content of the paragraph, it sho
 4. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
 5. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla porttitor accumsan tincidunt. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
 6. Donec rutrum congue leo eget malesuada.
+
+
+
+## Use It
+
+### GDocs
+
+Our basic templates have paragraph styles set up.
+
+### Adobe
+
+Use our [Decoded Library](http://adobe.ly/1Lst3EU) to get all the paragraph styles for InDesign.
+
+### On Your Mac
+
+To install the fonts on your mac, download the files from [Google Drive](https://drive.google.com/a/decoded.co/folderview?id=0B7zlrpAcS_XNQlA1bV91cHNudWM&usp=sharing)
+or grab the latest version on Github: [Source Sans](https://github.com/adobe-fonts/source-sans-pro), [Source Serif](https://github.com/adobe-fonts/source-sans-pro), [Source Code](https://github.com/adobe-fonts/source-code-pro).
+
+To install the fonts, just double click the files once you unzipped the archive, or [follow these instructions](https://support.apple.com/en-gb/HT201749).
+
+### Code
+
+For basic apps and web sites, link to the [decoded.css](/pages/how-to/basic-css), then use helper classes as described in the documentation.
+
+For more complex apps, include the [Decoded Style Framework](/pages/how-to/style-framework) in your app and use the variable names listed above.

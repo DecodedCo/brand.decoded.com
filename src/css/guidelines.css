@@ -1,6 +1,8 @@
 @import "base/_variables.css";
 @import "base/_media-queries.css";
-
+body {
+  background-color: #FEFEFE;
+}
 .example {
   margin: var(--scale-XXXL)rem 0;
   padding: var(--scale-XL)rem;
@@ -40,4 +42,20 @@
 
 .swatch.shadow {
   box-shadow: 0 0 3px var(--color-grey-medium-alpha);
+}
+
+/* tables in MD */
+table {
+  width: 100%;
+}
+th, td {
+  border-bottom: 1px solid var(--color-grey-medium);
+  padding: var(--scale-XS)rem var(--scale-XS)rem var(--scale-XS)rem 0;
+  text-align: left;
+  color: var(--color-grey-medium);
+  font-weight: var(--sans-normal);
+}
+td {
+  border-bottom: 1px solid var(--color-grey-light);
+  color: var(--color-black);
 }

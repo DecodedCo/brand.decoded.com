@@ -1,5 +1,3 @@
-@import "_source-sans-pro.css";
-@import "_source-serif-pro.css";
 /* containers */
 
     html {
@@ -10,6 +8,7 @@
     body {
         font-family: var(--font-sans);
         font-weight: var(--sans-normal);
+        color: var(--color-black);
     }
 
 /* headings */
@@ -43,7 +42,7 @@
     h2 {
         font-size: var(--scale-XL)rem;
         line-height: 1.125;
-        margin: var(--scale-XL)rem 0;
+        margin: var(--scale-XXXL)rem 0 var(--scale-XL)rem;
         color: var(--color-grey-medium);
     }
 
@@ -87,7 +86,7 @@
 /* text */
     p {
         font-size: var(--scale-M)rem;
-        line-height: var(--scale-L);
+        line-height: var(--scale-XL);
         color: var(--color-grey-dark);
     }
 
@@ -251,4 +250,11 @@ ol.styled li::before {
   margin-top: .25em;
   text-align: right;
   color: var(--color-grey-medium);
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: "Source Code Pro", monospace;
 }
