@@ -1134,6 +1134,193 @@ samp {
     margin: 0 auto;
   }
 }
+/*
+ * Hide visually and from screen readers:
+ * http://juicystudio.com/article/screen-readers-display-none.php
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `cf` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/*
+ * Float helpers
+ */
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+/*
+ * Margin helpers
+ */
+
+ .noMargin {
+    margin: 0;
+ }
+
+     .noMargin-top {
+        margin-top: 0;
+     }
+
+     .noMargin-right {
+        margin-right: 0;
+     }
+
+     .noMargin-bottom {
+        margin-bottom: 0;
+     }
+
+     .noMargin-left {
+        margin-left: 0;
+     }
+
+.margin {
+    margin: 1rem;
+ }
+
+     .margin-top {
+        margin-top: 1rem;
+     }
+
+     .margin-right {
+        margin-right: 1rem;
+     }
+
+     .margin-bottom {
+        margin-bottom: 1rem;
+     }
+
+     .margin-left {
+        margin-left: 1rem;
+     }
+
+.margin-S {
+    margin: 0.83rem;
+ }
+
+     .margin-top-S {
+        margin-top: 0.83rem;
+     }
+
+     .margin-right-S {
+        margin-right: 0.83rem;
+     }
+
+     .margin-bottom-S {
+        margin-bottom: 0.83rem;
+     }
+
+     .margin-left-S {
+        margin-left: 0.83rem;
+     }
+
+.margin-L {
+    margin: 1.14rem;
+ }
+
+     .margin-top-L {
+        margin-top: 1.14rem;
+     }
+
+     .margin-right-L {
+        margin-right: 1.14rem;
+     }
+
+     .margin-bottom-L {
+        margin-bottom: 1.14rem;
+     }
+
+     .margin-left-L {
+        margin-left: 1.14rem;
+     }
+
+.margin-XL {
+    margin: 1.34rem;
+ }
+
+     .margin-top-XL {
+        margin-top: 1.34rem;
+     }
+
+     .margin-right-XL {
+        margin-right: 1.34rem;
+     }
+
+     .margin-bottom-XL {
+        margin-bottom: 1.34rem;
+     }
+
+     .margin-left-XL {
+        margin-left: 1.34rem;
+     }
 .bg-yellow {
   background-color: rgb(254, 248, 0);
 }

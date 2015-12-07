@@ -107,81 +107,81 @@
      }
 
 .margin {
-    margin: var(--scale-M);
+    margin: var(--scale-M)rem;
  }
 
      .margin-top {
-        margin-top: var(--scale-M);
+        margin-top: var(--scale-M)rem;
      }
 
      .margin-right {
-        margin-right: var(--scale-M);
+        margin-right: var(--scale-M)rem;
      }
 
      .margin-bottom {
-        margin-bottom: var(--scale-M);
+        margin-bottom: var(--scale-M)rem;
      }
 
      .margin-left {
-        margin-left: var(--scale-M);
+        margin-left: var(--scale-M)rem;
      }
 
 .margin-S {
-    margin: var(--scale-S);
+    margin: var(--scale-S)rem;
  }
 
      .margin-top-S {
-        margin-top: var(--scale-S);
+        margin-top: var(--scale-S)rem;
      }
 
      .margin-right-S {
-        margin-right: var(--scale-S);
+        margin-right: var(--scale-S)rem;
      }
 
      .margin-bottom-S {
-        margin-bottom: var(--scale-S);
+        margin-bottom: var(--scale-S)rem;
      }
 
      .margin-left-S {
-        margin-left: var(--scale-S);
+        margin-left: var(--scale-S)rem;
      }
 
 .margin-L {
-    margin: var(--scale-L);
+    margin: var(--scale-L)rem;
  }
 
      .margin-top-L {
-        margin-top: var(--scale-L);
+        margin-top: var(--scale-L)rem;
      }
 
      .margin-right-L {
-        margin-right: var(--scale-L);
+        margin-right: var(--scale-L)rem;
      }
 
      .margin-bottom-L {
-        margin-bottom: var(--scale-L);
+        margin-bottom: var(--scale-L)rem;
      }
 
      .margin-left-L {
-        margin-left: var(--scale-L);
+        margin-left: var(--scale-L)rem;
      }
 
 .margin-XL {
-    margin: var(--scale-XL);
+    margin: var(--scale-XL)rem;
  }
 
      .margin-top-XL {
-        margin-top: var(--scale-XL);
+        margin-top: var(--scale-XL)rem;
      }
 
      .margin-right-XL {
-        margin-right: var(--scale-XL);
+        margin-right: var(--scale-XL)rem;
      }
 
      .margin-bottom-XL {
-        margin-bottom: var(--scale-XL);
+        margin-bottom: var(--scale-XL)rem;
      }
 
      .margin-left-XL {
-        margin-left: var(--scale-XL);
+        margin-left: var(--scale-XL)rem;
      }

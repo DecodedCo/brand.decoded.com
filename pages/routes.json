@@ -5,6 +5,11 @@
     "type": "nav-link"
   },
   {
+    "label": "Logo",
+    "link": "/pages/logo",
+    "type": "nav-link"
+  },
+  {
     "label": "Typography",
     "link": "/pages/typography",
     "type": "nav-link"

@@ -10,6 +10,13 @@ body {
   position: relative;
 }
 
+.example img {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 .example:before {
   content: 'Example:';
   position: absolute;
