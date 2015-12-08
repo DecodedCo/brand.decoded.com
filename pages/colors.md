@@ -34,6 +34,8 @@ The Decoded Yellow is our main brand color. It translates the enlightenment we b
 
 Use yellow to highlight important information, but don’t use it for random small accents. At any given time there should be a maximum of 4 yellow elements on a page/in a browser window, including the logo.
 
+Note that we use a slight off-white and a very dark grey on screen, but full process black and white in print. This is to reduce eye strain on screen.
+
 ## Warm Greys
 
 <div class="swatches grid">
@@ -200,7 +202,7 @@ Our basic templates have color swatches set up.
 
 ### Adobe
 
-Use our [Decoded Library]() to get all the color swatches.
+Use our [Decoded Library](http://adobe.ly/1Lst3EU) to get all the color swatches.
 
 ### Code
 

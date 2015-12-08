@@ -778,7 +778,7 @@ html {
 
     body {
         font-family: "Source Sans Pro", Helvetica, sans-serif;
-        font-weight: 200;
+        font-weight: 300;
         color: #333333;
     }
 
@@ -793,7 +793,7 @@ html {
 
     h1, h2, h3, h4, h5, h6 {
         font-family: "Source Sans Pro", Helvetica, sans-serif;
-        font-weight: 200;
+        font-weight: 300;
     }
 
     h1 {
@@ -864,7 +864,7 @@ html {
     .lead {
         font-family: "Source Serif Pro", serif;
         font-weight: 600;
-        font-size: 1.14rem;
+        font-size: 1.34rem;
         line-height: 1.34;
         color: rgb(83,80,75);
     }
@@ -874,14 +874,14 @@ html {
     }
 
     del {
-        font-weight: 200;
+        font-weight: 300;
         text-decoration: strike-through;
     }
 
 /* links */
     a {
         color: rgb(83,80,75);
-        font-weight: 200;
+        font-weight: 300;
         text-decoration: none;
         font-size: 1rem;
     }
@@ -894,7 +894,7 @@ html {
 
     .typography a {
         color: rgb(83,80,75);
-        font-weight: 200;
+        font-weight: 300;
         text-decoration: none;
         border-bottom: 1px solid rgb(186,184,176);
         box-shadow: inset 0 -2px 0 rgb(186,184,176);
@@ -939,7 +939,7 @@ html {
     }
 
     .courseName span {
-        font-weight: 200;
+        font-weight: 300;
     }
 
 
@@ -1028,6 +1028,8 @@ kbd,
 pre,
 samp {
   font-family: "Source Code Pro", monospace;
+  font-size: 0.83rem;
+  background-color: rgb(242,241,239);
 }
 /*
  * Gridism
@@ -1043,12 +1045,12 @@ samp {
 .grid .unit {
   float: left;
   width: 100%;
-  padding: 0.83;
+  padding: 0.83rem;
 }
 
 /* This ensures the outer gutters are equal to the (doubled) inner gutters. */
-.grid .unit:first-child { padding-left: 1; }
-.grid .unit:last-child { padding-right: 1; }
+.grid .unit:first-child { padding-left: 1rem; }
+.grid .unit:last-child { padding-right: 1rem; }
 
 /* Nested grids already have padding though, so let’s nuke it */
 .unit .unit:first-child { padding-left: 0; }
@@ -1110,8 +1112,8 @@ samp {
   /* Stack anything that isn’t full-width on smaller screens */
   .grid .unit {
     width: 100% !important;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 2.3rem;
+    padding-right: 2.3rem;
   }
   .unit .grid .unit {
     padding-left: 0px;
@@ -1223,23 +1225,23 @@ samp {
  */
 
  .noMargin {
-    margin: 0;
+    margin: 0 !important;
  }
 
      .noMargin-top {
-        margin-top: 0;
+        margin-top: 0 !important;
      }
 
      .noMargin-right {
-        margin-right: 0;
+        margin-right: 0 !important;
      }
 
      .noMargin-bottom {
-        margin-bottom: 0;
+        margin-bottom: 0 !important;
      }
 
      .noMargin-left {
-        margin-left: 0;
+        margin-left: 0 !important;
      }
 
 .margin {
@@ -1321,6 +1323,111 @@ samp {
      .margin-left-XL {
         margin-left: 1.34rem;
      }
+
+
+/*
+* Padding helpers
+*/
+
+.noPadding {
+   padding: 0 !important;
+}
+
+          .noPadding-top {
+             padding-top: 0 !important;
+          }
+
+          .noPadding-right {
+             padding-right: 0 !important;
+          }
+
+          .noPadding-bottom {
+             padding-bottom: 0 !important;
+          }
+
+          .noPadding-left {
+             padding-left: 0 !important;
+          }
+
+     .padding {
+         padding: 1rem;
+      }
+
+          .padding-top {
+             padding-top: 1rem;
+          }
+
+          .padding-right {
+             padding-right: 1rem;
+          }
+
+          .padding-bottom {
+             padding-bottom: 1rem;
+          }
+
+          .padding-left {
+             padding-left: 1rem;
+          }
+
+     .padding-S {
+         padding: 0.83rem;
+      }
+
+          .padding-top-S {
+             padding-top: 0.83rem;
+          }
+
+          .padding-right-S {
+             padding-right: 0.83rem;
+          }
+
+          .padding-bottom-S {
+             padding-bottom: 0.83rem;
+          }
+
+          .padding-left-S {
+             padding-left: 0.83rem;
+          }
+
+     .padding-L {
+         padding: 1.14rem;
+      }
+
+          .padding-top-L {
+             padding-top: 1.14rem;
+          }
+
+          .padding-right-L {
+             padding-right: 1.14rem;
+          }
+
+          .padding-bottom-L {
+             padding-bottom: 1.14rem;
+          }
+
+          .padding-left-L {
+             padding-left: 1.14rem;
+          }
+
+     .padding-XL {
+         padding: 1.34rem;
+      }
+
+          .padding-top-XL {
+             padding-top: 1.34rem;
+          }
+
+          .padding-right-XL {
+             padding-right: 1.34rem;
+          }
+
+          .padding-bottom-XL {
+             padding-bottom: 1.34rem;
+          }
+
+          .padding-left-XL {
+             padding-left: 1.34rem;
+          }
 .bg-yellow {
   background-color: rgb(254, 248, 0);
 }

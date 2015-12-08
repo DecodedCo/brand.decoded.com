@@ -12,12 +12,12 @@
 .grid .unit {
   float: left;
   width: 100%;
-  padding: var(--scale-S);
+  padding: var(--scale-S)rem;
 }
 
 /* This ensures the outer gutters are equal to the (doubled) inner gutters. */
-.grid .unit:first-child { padding-left: var(--scale-M); }
-.grid .unit:last-child { padding-right: var(--scale-M); }
+.grid .unit:first-child { padding-left: var(--scale-M)rem; }
+.grid .unit:last-child { padding-right: var(--scale-M)rem; }
 
 /* Nested grids already have padding though, so let’s nuke it */
 .unit .unit:first-child { padding-left: 0; }
@@ -79,8 +79,8 @@
   /* Stack anything that isn’t full-width on smaller screens */
   .grid .unit {
     width: 100% !important;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: var(--scale-XXL)rem;
+    padding-right: var(--scale-XXL)rem;
   }
   .unit .grid .unit {
     padding-left: 0px;

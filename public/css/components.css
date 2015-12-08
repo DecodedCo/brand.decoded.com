@@ -31,12 +31,12 @@
 
 
 .header-brochure .name {
-  margin-top: 5rem;
+  margin: 5rem 0 0 1rem;
 }
 .header-brand {
   width: 150px;
   float: right;
-  margin-top: 1rem;
+  margin: 1rem;
 }
 .nav {
   padding: 0;

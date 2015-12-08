@@ -6,6 +6,10 @@ It is used across all print, digital and all other media. The Source Pro Family 
 
 Decoded’s primary typeface is [Source Sans Pro](http://sourcesanspro.com/).
 
+<div class="example">
+  <h1>Source Sans Pro</h1>
+</div>
+
 Source Sans embodies the open, friendly approach Decoded bring to the world, being approachable and yet sophisticated and modern.
 
 - If unavailable we fall back to Helvetica Neue, Helvetica and then Arial.
@@ -13,11 +17,17 @@ Source Sans embodies the open, friendly approach Decoded bring to the world, bei
 
 Our secondary typeface is Source Serif Pro.
 
+<div class="example">
+  <h1 class="serif">Source Sans Pro</h1>
+</div>
+
 It complements our main Source Sans Pro and adds sophistication and a more conversational voice to our communications. Source Serif Pro should be used in combination with active language. Lead paragraphs prompting the user to start a transformation programme, quotes and testimonials.
 
 - Use Source Serif as an accent, not as the main font.
 - Wherever possible we only use Source Serif Pro Regular
 - If unavailable we fall back to Georgia.
+
+We use these fonts in combination with the [Decoded Scale](/pages/scale) to define our typography.
 
 ## Hierarchy
 
@@ -36,6 +46,7 @@ The context is placed above the main heading.
 
 - Use Source Sans Light
 - The [format] should always be capitalised
+- The context line is set in Size M &ndash; like your body copy.
 
 <div class="example">
   <span class="context">Decoded Presents</span>
@@ -45,7 +56,7 @@ The context is placed above the main heading.
 ### Headings
 
 - Use sentence case for headings
-- use headings consistently to create a clear hierarchy
+- Use headings consistently to create a clear hierarchy
 
 Example:
 
@@ -63,7 +74,8 @@ Example:
 
 A lead paragraph introduces the reader into the content of the paragraph, it should be engaging, approachable and short.
 
-- Use 14pt Source Serif Pro for a lead paragraph
+- Use Source Serif Pro for a lead paragraph
+- Use Size XL &ndash; 15pt for print and 21px for screen
 - There should only be one lead paragraph per page
 
 <div class="example">
@@ -77,7 +89,7 @@ A lead paragraph introduces the reader into the content of the paragraph, it sho
 
 - Use Source Sans Pro Light
 - Avoid using bold and italics
-- Use 11pt for print and 14px for screen
+- Use Size M &ndash; 11pt for print and 14px for screen
 - Make sure lines of text don’t exceed 65–75 characters, as they become hard to read beyond that point
 
 <div class="example">

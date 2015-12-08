@@ -6,32 +6,32 @@ When choosing font sizes, line height and spacing, stick to a size on the scale 
 
 The scale is a collection of ratios that work well together and is represented in our basic [templates](/pages/templates) as well as the [decoded.css](/pages/how-to/basic-css).
 
-The scale adapts to different media, for screen applications we might choose a base size of 16px, while for A4 print products we might choose 11pt. Other base sizes can be used as appropriate, for example presentations will need a bigger base size to be legible from a distance.
+The scale adapts to different media and is based on the size of our main body copy. For screen applications we might choose a base size of 16px, while for A4 print products we might choose 11pt. Other base sizes can be used as appropriate, for example presentations will need a bigger base size to be legible from a distance.
 
-Size | Ratio (rem) | Screen Default | Print Default | Use for
------|-------------|----------------|---------------|--------
-S    |0.83		     |13px            |9pt           | Footer copy, annotations
-M    |1	           |16px		        |11pt           | Body copy
-L    |1.14	    	 |18px        	  |13pt           | H5-H6 subheadings
-XL   |1.34	       |21px           	|15pt           | H3-H4 subheading
-XXL  |2.3	         |37px 	          |25pt           | H2 subheadings
-XXXL |3.7          |59px            |41pt           | H1 page headers
-XXXXL|6.7          |107px           |74pt           | Extra large headers
+Size      | Ratio (rem) | Screen Default | Print Default | Use for
+----------|-------------|----------------|---------------|--------
+S         |0.83         |13px            |9pt            | Footer copy, annotations
+M - base  |1            |16px            |11pt           | Body copy
+L         |1.14         |18px            |13pt           | H5-H6 subheadings
+XL        |1.34         |21px            |15pt           | H3-H4 subheading, lead
+XXL       |2.3          |37px            |25pt           | H2 subheadings
+XXXL      |3.7          |59px            |41pt           | H1 page headers
+XXXXL     |6.7          |107px           |74pt           | Extra large headers
 
 
 ## Calculate Scales
 
 You can calculate your own scale based on a different body copy size using the calculator below:
 
-Size | Ratio (rem) |Your Sizes| Use for
------|-------------|----------|--------
-S    |0.83		     |<input class="ratio-calculator" type="number" data-ratio=".83" id="ratio-calculator-S" readonly>| Footer copy, annotations
-M    |1	           |<input class="ratio-calculator" type="number" data-ratio="1" id="ratio-calculator-M" placeholder="enter your base size">| Body copy
-L    |1.14	    	 |<input class="ratio-calculator" type="number" data-ratio="1.14" id="ratio-calculator-L" readonly>| H5-H6 subheadings
-XL   |1.34	       |<input class="ratio-calculator" type="number" data-ratio="1.34" id="ratio-calculator-XL" readonly>| H3-H4 subheading
-XXL  |2.3	         |<input class="ratio-calculator" type="number" data-ratio="2.3" id="ratio-calculator-XXL" readonly>| H2 subheadings
-XXXL |3.7		       |<input class="ratio-calculator" type="number" data-ratio="3.7" id="ratio-calculator-XXXL" readonly>| H1 page headers
-XXXXL|6.7		       |<input class="ratio-calculator" type="number" data-ratio="6.7" id="ratio-calculator-XXXXL" readonly>| Extra large headers
+Size     | Ratio (rem) |Your Sizes| Use for
+---------|-------------|----------|--------
+S        |0.83         |<input class="ratio-calculator" type="number" data-ratio=".83" id="ratio-calculator-S" readonly>| Footer copy, annotations
+M - base |1            |<input class="ratio-calculator" type="number" data-ratio="1" id="ratio-calculator-M" placeholder="enter your base size">| Body copy
+L        |1.14         |<input class="ratio-calculator" type="number" data-ratio="1.14" id="ratio-calculator-L" readonly>| H5-H6 subheadings
+XL       |1.34         |<input class="ratio-calculator" type="number" data-ratio="1.34" id="ratio-calculator-XL" readonly>| H3-H4 subheading, lead
+XXL      |2.3          |<input class="ratio-calculator" type="number" data-ratio="2.3" id="ratio-calculator-XXL" readonly>| H2 subheadings
+XXXL     |3.7          |<input class="ratio-calculator" type="number" data-ratio="3.7" id="ratio-calculator-XXXL" readonly>| H1 page headers
+XXXXL    |6.7          |<input class="ratio-calculator" type="number" data-ratio="6.7" id="ratio-calculator-XXXXL" readonly>| Extra large headers
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.1.6/zepto.min.js"></script>
 <script>
@@ -52,7 +52,33 @@ $(function(){
 </script>
 
 
+## Applications of the Scale
 
+### Leading / Line height
+
+We use the XL Ratio (1.34) to define line height for most copy.
+So if our paragraph (main body text) is set at 11pt, we'll use 11*1.34 = 15pt as the line height.
+
+- **GDocs** calls this line-spacing. Select the text you want to change, then find the line-spacing button in the menu bar, select custom and enter 1.34
+
+![Line Height Menu in GDocs](//brand-assets.decoded.com/BrandGuidelines/gdocs-lineheight.png)
+
+- **Adobe** calls this Leading. We'll have to calculate the line height and enter it in the leading box or use predefined paragraph styles in the [Decoded Library](http://adobe.ly/1Lst3EU).
+
+![Setting the Line Height in InDesign](//brand-assets.decoded.com/BrandGuidelines/adobe-indesign-lineheight.png)
+
+- In **CSS** we can just set `line-height: 1.34;`
+
+
+### Spacing
+
+Applying the scale for space around and between objects helps to keep the rhythm and guides the eye.
+
+As a rule of thumb, use bigger spacing around objects and smaller spacing within.
+
+<div class="example noPadding">
+  <img src="//brand-assets.decoded.com/BrandGuidelines/scale-spacing.png" class="noMargin">
+</div>
 
 ## Use It
 
