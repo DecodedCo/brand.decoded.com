@@ -6,7 +6,7 @@ New templates are added as they are being designed.
 
 All templates are read-only. Open the template and select `File -> Make a copy...` to edit it. Then select `File -> Move to Folder...` to store it in an appropriate location on the drive.
 
-![Copy a Template to edit it](//brand-assets.decoded.com/BrandGuidelines/gdocs-copy-template.png)
+![Copy a Template to edit it](http://brand-assets.decoded.com/BrandGuidelines/gdocs-copy-template.png)
 
 Template Name | Google Docs | InDesign | Other
 --------------|-------------|----------|------

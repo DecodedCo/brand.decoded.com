@@ -20,12 +20,12 @@ To preserve legibility, the logotype should never be printed smaller than 30mm f
 Most logos look pretty bad on yellow, keep it simple and use a white background.
 
 <div class="example">
-  <img src="https://s3.amazonaws.com/brand-assets.decoded.com/BrandGuidelines/partner-logos-example.png">
+  <img src="http://brand-assets.decoded.com/BrandGuidelines/partner-logos-example.png">
 </div>
 
 To keep both logos balanced, draw a square around the Decoded logo and use that as the maximum size of the partner logo.
 <div class="example">
-  <img src="https://s3.amazonaws.com/brand-assets.decoded.com/BrandGuidelines/partner-logos-sizing.png">
+  <img src="http://brand-assets.decoded.com/BrandGuidelines/partner-logos-sizing.png">
 </div>
 
 
