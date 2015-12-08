@@ -76,3 +76,8 @@ td {
 .serif {
   font-family: var(--font-serif) !important;
 }
+
+
+.full-width {
+  width: 100%;
+}

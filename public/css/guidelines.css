@@ -185,3 +185,8 @@ td {
 .serif {
   font-family: "Source Serif Pro", serif !important;
 }
+
+
+.full-width {
+  width: 100%;
+}

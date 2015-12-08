@@ -80,6 +80,26 @@ As a rule of thumb, use bigger spacing around objects and smaller spacing within
   <img src="//brand-assets.decoded.com/BrandGuidelines/scale-spacing.png" class="noMargin">
 </div>
 
+### Grid
+
+In most applications we split the area in thirds, using the wider two-thirds column for the main content and the smaller one-third column for contextual information.
+
+Depending on the application the contextual column can be left or right of the main content column.
+
+The gutter between the columns should of of a large size according to the Decoded Scale.
+
+
+<div class="example noPadding">
+  <img src="//brand-assets.decoded.com/BrandGuidelines/scale-grid.svg" class="full-width">
+</div>
+
+<div class="example noPadding">
+  <img src="//brand-assets.decoded.com/BrandGuidelines/scale-grid-reverse.svg" class="full-width">
+</div>
+
+If thirds are not feasible for a given application, a grid of sixths can be used. Try to keep it to thirds whenever possible and only switch to sixths when there is a good reason to. Other grids or random percentages (i.e. 30%, 70%) are discouraged.
+
+
 ## Use It
 
 ### GDocs
