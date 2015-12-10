@@ -10,6 +10,7 @@ body {
   position: relative;
 }
 
+.typography img,
 .example img {
   max-width: 100%;
   margin-left: auto;

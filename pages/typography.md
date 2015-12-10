@@ -13,7 +13,7 @@ Decoded’s primary typeface is [Source Sans Pro](http://sourcesanspro.com/).
 Source Sans embodies the open, friendly approach Decoded bring to the world, being approachable and yet sophisticated and modern.
 
 - If unavailable we fall back to Helvetica Neue, Helvetica and then Arial.
-- Wherever possible only Light and Semibold weights should be used.
+- Wherever possible only Light, Regular and Semibold weights should be used.
 
 Our secondary typeface is Source Serif Pro.
 
@@ -57,17 +57,16 @@ The context is placed above the main heading.
 
 - Use sentence case for headings
 - Use headings consistently to create a clear hierarchy
+- Use only one Header One per page
 
 Example:
 
 <div class="example">
-  <h1>Header One in Light and Size XXL</h1>
-  <h2>Header Two in Light and Size XL</h2>
+  <h1>Header One in Regular and Size XXL</h1>
+  <h2>Header Two in Regular and Size XL</h2>
   <h3>Header Three in Semibold and Size XL</h3>
   <h4>Header Four in Semibold and Size L</h4>
 </div>
-
-
 
 
 ### Lead paragraph
@@ -89,7 +88,7 @@ A lead paragraph introduces the reader into the content of the paragraph, it sho
 
 - Use Source Sans Pro Light
 - Avoid using bold and italics
-- Use Size M &ndash; 11pt for print and 14px for screen
+- Use Size M &ndash; 11pt for print and 16px for screen
 - Make sure lines of text don’t exceed 65–75 characters, as they become hard to read beyond that point
 
 <div class="example">
@@ -149,7 +148,7 @@ Our basic templates have paragraph styles set up.
 
 ### Adobe
 
-Use our [Decoded Library](http://adobe.ly/1Lst3EU) to get all the paragraph styles for InDesign.
+Use our [Decoded CC Library](/pages/how-to/cc-library) to get all the paragraph styles for InDesign.
 
 ### On Your Mac
 

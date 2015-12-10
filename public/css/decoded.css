@@ -1245,83 +1245,83 @@ samp {
      }
 
 .margin {
-    margin: 1rem;
+    margin: 1rem !important;
  }
 
      .margin-top {
-        margin-top: 1rem;
+        margin-top: 1rem !important;
      }
 
      .margin-right {
-        margin-right: 1rem;
+        margin-right: 1rem !important;
      }
 
      .margin-bottom {
-        margin-bottom: 1rem;
+        margin-bottom: 1rem !important;
      }
 
      .margin-left {
-        margin-left: 1rem;
+        margin-left: 1rem !important;
      }
 
 .margin-S {
-    margin: 0.83rem;
+    margin: 0.83rem !important;
  }
 
      .margin-top-S {
-        margin-top: 0.83rem;
+        margin-top: 0.83rem !important;
      }
 
      .margin-right-S {
-        margin-right: 0.83rem;
+        margin-right: 0.83rem !important;
      }
 
      .margin-bottom-S {
-        margin-bottom: 0.83rem;
+        margin-bottom: 0.83rem !important;
      }
 
      .margin-left-S {
-        margin-left: 0.83rem;
+        margin-left: 0.83rem !important;
      }
 
 .margin-L {
-    margin: 1.14rem;
+    margin: 1.14rem !important;
  }
 
      .margin-top-L {
-        margin-top: 1.14rem;
+        margin-top: 1.14rem !important;
      }
 
      .margin-right-L {
-        margin-right: 1.14rem;
+        margin-right: 1.14rem !important;
      }
 
      .margin-bottom-L {
-        margin-bottom: 1.14rem;
+        margin-bottom: 1.14rem !important;
      }
 
      .margin-left-L {
-        margin-left: 1.14rem;
+        margin-left: 1.14rem !important;
      }
 
 .margin-XL {
-    margin: 1.34rem;
+    margin: 1.34rem !important;
  }
 
      .margin-top-XL {
-        margin-top: 1.34rem;
+        margin-top: 1.34rem !important;
      }
 
      .margin-right-XL {
-        margin-right: 1.34rem;
+        margin-right: 1.34rem !important;
      }
 
      .margin-bottom-XL {
-        margin-bottom: 1.34rem;
+        margin-bottom: 1.34rem !important;
      }
 
      .margin-left-XL {
-        margin-left: 1.34rem;
+        margin-left: 1.34rem !important;
      }
 
 
@@ -1350,83 +1350,83 @@ samp {
           }
 
      .padding {
-         padding: 1rem;
+         padding: 1rem !important;
       }
 
           .padding-top {
-             padding-top: 1rem;
+             padding-top: 1rem !important;
           }
 
           .padding-right {
-             padding-right: 1rem;
+             padding-right: 1rem !important;
           }
 
           .padding-bottom {
-             padding-bottom: 1rem;
+             padding-bottom: 1rem !important;
           }
 
           .padding-left {
-             padding-left: 1rem;
+             padding-left: 1rem !important;
           }
 
      .padding-S {
-         padding: 0.83rem;
+         padding: 0.83rem !important;
       }
 
           .padding-top-S {
-             padding-top: 0.83rem;
+             padding-top: 0.83rem !important;
           }
 
           .padding-right-S {
-             padding-right: 0.83rem;
+             padding-right: 0.83rem !important;
           }
 
           .padding-bottom-S {
-             padding-bottom: 0.83rem;
+             padding-bottom: 0.83rem !important;
           }
 
           .padding-left-S {
-             padding-left: 0.83rem;
+             padding-left: 0.83rem !important;
           }
 
      .padding-L {
-         padding: 1.14rem;
+         padding: 1.14rem !important;
       }
 
           .padding-top-L {
-             padding-top: 1.14rem;
+             padding-top: 1.14rem !important;
           }
 
           .padding-right-L {
-             padding-right: 1.14rem;
+             padding-right: 1.14rem !important;
           }
 
           .padding-bottom-L {
-             padding-bottom: 1.14rem;
+             padding-bottom: 1.14rem !important;
           }
 
           .padding-left-L {
-             padding-left: 1.14rem;
+             padding-left: 1.14rem !important;
           }
 
      .padding-XL {
-         padding: 1.34rem;
+         padding: 1.34rem !important;
       }
 
           .padding-top-XL {
-             padding-top: 1.34rem;
+             padding-top: 1.34rem !important;
           }
 
           .padding-right-XL {
-             padding-right: 1.34rem;
+             padding-right: 1.34rem !important;
           }
 
           .padding-bottom-XL {
-             padding-bottom: 1.34rem;
+             padding-bottom: 1.34rem !important;
           }
 
           .padding-left-XL {
-             padding-left: 1.34rem;
+             padding-left: 1.34rem !important;
           }
 .bg-yellow {
   background-color: rgb(254, 248, 0);

@@ -202,7 +202,7 @@ Our basic templates have color swatches set up.
 
 ### Adobe
 
-Use our [Decoded Library](http://adobe.ly/1Lst3EU) to get all the color swatches.
+Use our [Decoded CC Library](/pages/how-to/cc-library) to get all the color swatches.
 
 ### Code
 

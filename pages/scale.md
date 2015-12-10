@@ -108,7 +108,7 @@ Our basic templates have paragraph styles set up that use the scale. Easy as tha
 
 ### Adobe
 
-Use our [Decoded Library](http://adobe.ly/1Lst3EU) to get all the paragraph styles for InDesign.
+Use our [Decoded CC Library](/pages/how-to/cc-library) to get all the paragraph styles for InDesign.
 They use the default print scale.
 
 ### Code

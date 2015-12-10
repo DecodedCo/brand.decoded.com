@@ -35,6 +35,8 @@ To keep both logos balanced, draw a square around the Decoded logo and use that 
 
 To send logos to a client or use them in your own documents, [Download the Logo](https://drive.google.com/a/decoded.co/folderview?id=0B7zlrpAcS_XNM3NfU0pCTjRUSmc&usp=sharing).
 
+There are also basic logos readily set up in the InDesign Templates [Decoded CC Library](/pages/how-to/cc-library).
+
 Always use CMYK files for print products and RGB files for use on screen. For GDocs, use RGB files. Most Google Document Templates already have logos in them. Should you need another one, use this [Logo optimised for GDocs](https://drive.google.com/a/decoded.co/file/d/0B7zlrpAcS_XNMlBOTmdjNDI5MXM/view?usp=sharing)
 
 ### Code
