@@ -1,5 +1,3 @@
-@import "_source-sans-pro.css";
-@import "_source-serif-pro.css";
 /* containers */
 
     html {
@@ -10,6 +8,7 @@
     body {
         font-family: var(--font-sans);
         font-weight: var(--sans-normal);
+        color: var(--color-black);
     }
 
 /* headings */
@@ -42,16 +41,16 @@
 
     h2 {
         font-size: var(--scale-XL)rem;
-        line-height: 1.125;
-        margin: var(--scale-XL)rem 0;
-        color: var(--color-grey-medium);
+        line-height: 1;
+        font-weight: var(--sans-bold);
+        margin: var(--scale-XXXL)rem 0 var(--scale-XL)rem;
     }
 
     h3 {
         font-size: var(--scale-XL)rem;
-        line-height: 1;
-        font-weight: var(--sans-bold);
-        margin: var(--scale-XL)rem 0;
+        line-height: 1.125;
+        margin: var(--scale-XXL)rem 0 var(--scale-XL)rem;
+        color: var(--color-grey-medium);
     }
 
     h4, h5, h6 {
@@ -87,14 +86,14 @@
 /* text */
     p {
         font-size: var(--scale-M)rem;
-        line-height: var(--scale-L);
+        line-height: var(--scale-XL);
         color: var(--color-grey-dark);
     }
 
     .lead {
         font-family: var(--font-serif);
         font-weight: var(--serif-normal);
-        font-size: var(--scale-L)rem;
+        font-size: var(--scale-XL)rem;
         line-height: var(--scale-XL);
         color: var(--color-grey-dark);
     }
@@ -251,4 +250,19 @@ ol.styled li::before {
   margin-top: .25em;
   text-align: right;
   color: var(--color-grey-medium);
+}
+
+code,
+kbd,
+samp {
+  font-family: "Source Code Pro", monospace;
+  font-size: var(--scale-S)rem;
+  background-color: var(--color-grey-light);
+  padding: 0 var(--scale-XS)em;
+}
+
+pre code {
+  display: block;
+  padding: var(--scale-XS)em;
+  overflow: scroll;
 }

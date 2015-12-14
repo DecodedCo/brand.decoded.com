@@ -5,6 +5,11 @@
     "type": "nav-link"
   },
   {
+    "label": "Logo",
+    "link": "/pages/logo",
+    "type": "nav-link"
+  },
+  {
     "label": "Typography",
     "link": "/pages/typography",
     "type": "nav-link"
@@ -12,6 +17,21 @@
   {
     "label": "Colors",
     "link": "/pages/colors",
+    "type": "nav-link"
+  },
+  {
+    "label": "Scale - Sizes",
+    "link": "/pages/scale",
+    "type": "nav-link"
+  },
+  {
+    "label": "Templates",
+    "link": "/pages/templates",
+    "type": "nav-link"
+  },
+  {
+    "label": "Photos",
+    "link": "/pages/photos",
     "type": "nav-link"
   }
 ]

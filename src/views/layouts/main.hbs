@@ -8,14 +8,16 @@
   <link rel="stylesheet" href="/css/components.css">
 </head>
 <body>
-  <div class="app grid wrap">
+  <div class="app container">
     {{> header-brochure this }}
-    {{#routes}}
-      {{> nav-aside this}}
-    {{/routes}}
-    <main role="main" class="unit two-thirds">
-        {{{body}}}
-    </main>
+      <div class="row">
+      {{#routes}}
+        {{> nav-aside this}}
+      {{/routes}}
+      <main role="main" class="col-sm-8 margin-bottom-XL padding-bottom-XL">
+          {{{body}}}
+      </main>
+    </div>
   </div>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
   <script src="/js/main.js"></script>

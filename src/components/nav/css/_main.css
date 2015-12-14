@@ -1,3 +1,8 @@
+.nav {
+  padding: 0;
+  margin: 0;
+}
 .nav li {
   list-style-type: none;
+  padding: var(--scale-S)rem 0;
 }

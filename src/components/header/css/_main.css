@@ -10,5 +10,12 @@
 
 
 .header-brochure .name {
-  margin-top: 5rem;
+  margin: 5rem 0 0 var(--scale-M)rem;
+}
+
+
+.nav-toggle {
+  float: left;
+  width: var(--scale-L)rem;
+  height: var(--scale-L)rem;
 }
