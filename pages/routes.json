@@ -28,5 +28,10 @@
     "label": "Templates",
     "link": "/pages/templates",
     "type": "nav-link"
+  },
+  {
+    "label": "Photos",
+    "link": "/pages/photos",
+    "type": "nav-link"
   }
 ]
