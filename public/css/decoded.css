@@ -1029,9 +1029,7 @@ samp {
   font-family: "Source Code Pro", monospace;
   font-size: 0.83rem;
   background-color: rgb(242,241,239);
-  border: 1px solid rgb(186,184,176);
   padding: 0 0.6em;
-  border-radius: 0.6em;
 }
 pre code {
   display: block;

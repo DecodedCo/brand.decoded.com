@@ -258,9 +258,7 @@ samp {
   font-family: "Source Code Pro", monospace;
   font-size: var(--scale-S)rem;
   background-color: var(--color-grey-light);
-  border: 1px solid var(--color-grey-medium);
   padding: 0 var(--scale-XS)em;
-  border-radius: var(--scale-XS)em;
 }
 pre code {
   display: block;
