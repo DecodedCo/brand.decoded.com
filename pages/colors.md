@@ -1,8 +1,8 @@
 # Colors [Use it!](#use-it)
 
 ## Primary Colors
-<div class="swatches grid">
-  <article class="unit one-third">
+<div class="swatches row">
+  <article class="col-md-4">
     <div class="swatch bg-yellow"></div>
     <p>**Yellow**</p>
     <p>#FEF800</p>
@@ -11,7 +11,7 @@
     <p>var(**--color-yellow**)</p>
   </article>
 
-  <article class="unit one-third">
+  <article class="col-md-4">
     <div class="swatch bg-black"></div>
     <p>**Black**</p>
     <p>#333333</p>
@@ -20,7 +20,7 @@
     <p>var(**--color-black**)</p>
   </article>
 
-  <article class="unit one-third">
+  <article class="col-md-4">
     <div class="swatch shadow bg-white"></div>
     <p>**White**</p>
     <p>#FEFEFE</p>
@@ -38,8 +38,8 @@ Note that we use a slight off-white and a very dark grey on screen, but full pro
 
 ## Warm Greys
 
-<div class="swatches grid">
-  <article class="unit one-third">
+<div class="swatches row">
+  <article class="col-md-4">
     <div class="swatch bg-grey-dark"></div>
     <p>**Dark Grey**</p>
     <p>#53504B</p>
@@ -48,7 +48,7 @@ Note that we use a slight off-white and a very dark grey on screen, but full pro
     <p>var(**--color-grey-dark**)</p>
   </article>
 
-  <article class="unit one-third">
+  <article class="col-md-4">
     <div class="swatch bg-grey-medium"></div>
     <p>**Medium Grey**</p>
     <p>#BAB8B0</p>
@@ -57,7 +57,7 @@ Note that we use a slight off-white and a very dark grey on screen, but full pro
     <p>var(**--color-grey-medium**)</p>
   </article>
 
-  <article class="unit one-third">
+  <article class="col-md-4">
     <div class="swatch bg-grey-light"></div>
     <p>**Light Grey**</p>
     <p>#F2F1EF</p>
@@ -74,8 +74,8 @@ Use Dark or Medium Grey to set copy. Light grey can only be used for backgrounds
 
 ## Secondary Colors
 
-<div class="swatches grid">
-  <article class="unit one-third">
+<div class="swatches row">
+  <article class="col-md-4">
     <div class="swatch bg-green"></div>
     <p>**Green**</p>
     <p>#2ecc71</p>
@@ -84,7 +84,7 @@ Use Dark or Medium Grey to set copy. Light grey can only be used for backgrounds
     <p>var(**--color-green**)</p>
   </article>
 
-  <article class="unit one-third">
+  <article class="col-md-4">
     <div class="swatch bg-blue"></div>
     <p>**Blue**</p>
     <p>#348dcc</p>
@@ -93,7 +93,7 @@ Use Dark or Medium Grey to set copy. Light grey can only be used for backgrounds
     <p>var(**--color-blue**)</p>
   </article>
 
-  <article class="unit one-third">
+  <article class="col-md-4">
     <div class="swatch bg-red"></div>
     <p>**Red**</p>
     <p>#e74c3c</p>
@@ -102,7 +102,7 @@ Use Dark or Medium Grey to set copy. Light grey can only be used for backgrounds
     <p>var(**--color-red**)</p>
   </article>
 
-  <article class="unit one-third">
+  <article class="col-md-4">
     <div class="swatch bg-green-light"></div>
     <p>**Light Green**</p>
     <p>#c0e38b</p>
@@ -111,7 +111,7 @@ Use Dark or Medium Grey to set copy. Light grey can only be used for backgrounds
     <p>var(**--color-green-light**)</p>
   </article>
 
-  <article class="unit one-third">
+  <article class="col-md-4">
     <div class="swatch bg-blue-light"></div>
     <p>**Light Blue**</p>
     <p>#7fc3e1</p>
@@ -120,7 +120,7 @@ Use Dark or Medium Grey to set copy. Light grey can only be used for backgrounds
     <p>var(**--color-blue-light**)</p>
   </article>
 
-  <article class="unit one-third">
+  <article class="col-md-4">
     <div class="swatch bg-red-light"></div>
     <p>**Light Red**</p>
     <p>#fd9e7f</p>
@@ -129,7 +129,7 @@ Use Dark or Medium Grey to set copy. Light grey can only be used for backgrounds
     <p>var(**--color-red-light**)</p>
   </article>
 
-  <article class="unit one-third">
+  <article class="col-md-4">
     <div class="swatch bg-orange"></div>
     <p>**Orange**</p>
     <p>#f3920f</p>
@@ -138,7 +138,7 @@ Use Dark or Medium Grey to set copy. Light grey can only be used for backgrounds
     <p>var(**--color-orange**)</p>
   </article>
 
-  <article class="unit one-third">
+  <article class="col-md-4">
     <div class="swatch bg-pink"></div>
     <p>**Pink**</p>
     <p>#f93a8e</p>
@@ -147,7 +147,7 @@ Use Dark or Medium Grey to set copy. Light grey can only be used for backgrounds
     <p>var(**--color-pink**)</p>
   </article>
 
-  <article class="unit one-third">
+  <article class="col-md-4">
     <div class="swatch bg-purple"></div>
     <p>**Purple**</p>
     <p>#8c59b6</p>
@@ -156,7 +156,7 @@ Use Dark or Medium Grey to set copy. Light grey can only be used for backgrounds
     <p>var(**--color-purple**)</p>
   </article>
 
-  <article class="unit one-third">
+  <article class="col-md-4">
     <div class="swatch bg-orange-light"></div>
     <p>**Light Orange**</p>
     <p>#ffca80</p>
@@ -165,7 +165,7 @@ Use Dark or Medium Grey to set copy. Light grey can only be used for backgrounds
     <p>var(**--color-orange-light**)</p>
   </article>
 
-  <article class="unit one-third">
+  <article class="col-md-4">
     <div class="swatch bg-pink-light"></div>
     <p>**Light Pink**</p>
     <p>#fc83b3</p>
@@ -174,7 +174,7 @@ Use Dark or Medium Grey to set copy. Light grey can only be used for backgrounds
     <p>var(**--color-pink-light**)</p>
   </article>
 
-  <article class="unit one-third">
+  <article class="col-md-4">
     <div class="swatch bg-purple-light"></div>
     <p>**Light Purple**</p>
     <p>#ab7fc1</p>
