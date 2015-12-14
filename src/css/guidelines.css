@@ -1,5 +1,7 @@
 @import "base/_variables.css";
 @import "base/_media-queries.css";
+@import "../../node_modules/highlight.js/styles/github.css";
+
 body {
   background-color: #FEFEFE;
 }

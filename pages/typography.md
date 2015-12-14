@@ -99,26 +99,26 @@ A lead paragraph introduces the reader into the content of the paragraph, it sho
 ### Product Titles
 
 <div class="example">
-  <h3 class="courseName">Code<span>&#95;in a Day</span></h3>
-  <h3 class="courseName">Tech<span>&#95;in a Day</span></h3>
-  <h3 class="courseName">Data<span>&#95;in a Day</span></h3>
-  <h3 class="courseName">[Topic]<span>&#95;[format]</span></h3>
+  <h2 class="courseName">Code<span>&#95;in a Day</span></h2>
+  <h2 class="courseName">Tech<span>&#95;in a Day</span></h2>
+  <h2 class="courseName">Data<span>&#95;in a Day</span></h2>
+  <h2 class="courseName">[Topic]<span>&#95;[format]</span></h2>
 </div>
   <p>Note: Only the product topic is boldened. There’s no space before or after the underscore and the underscore is set in light, as well as the course format (i.e. “&#95;in a Day”). Always capitalise the D in Day.</p>
 
   <h4>Incorrect product titles:</h4>
 
 <div class="example">
-  <h3 class="courseName">Storyteller<span>&#95;in a day<span></h3>
+  <h2 class="courseName">Storyteller<span>&#95;in a day<span></h2>
   <small>The ‘d’ of Day should always be capitalised</small>
 
-  <h3>Storyteller&#95;in a Day</h3>
+  <h2>Storyteller&#95;in a Day</h2>
   <small>The product topic should always be Semibold</small>
 
-  <h3 class="courseName">Storyteller<span>&#95; in a Day</span></h3>
+  <h2 class="courseName">Storyteller<span>&#95; in a Day</span></h2>
   <small>There should never be a space between the underscore and format</small>
 
-  <h3 class="courseName">Storyteller&#95;<span>in a Day</span></h3>
+  <h2 class="courseName">Storyteller&#95;<span>in a Day</span></h2>
   <small>Never bolden the underscore.</small>
 </div>
 

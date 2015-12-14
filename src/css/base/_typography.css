@@ -41,16 +41,16 @@
 
     h2 {
         font-size: var(--scale-XL)rem;
-        line-height: 1.125;
+        line-height: 1;
+        font-weight: var(--sans-bold);
         margin: var(--scale-XXXL)rem 0 var(--scale-XL)rem;
-        color: var(--color-grey-medium);
     }
 
     h3 {
         font-size: var(--scale-XL)rem;
-        line-height: 1;
-        font-weight: var(--sans-bold);
-        margin: var(--scale-XL)rem 0;
+        line-height: 1.125;
+        margin: var(--scale-XXL)rem 0 var(--scale-XL)rem;
+        color: var(--color-grey-medium);
     }
 
     h4, h5, h6 {
@@ -254,9 +254,16 @@ ol.styled li::before {
 
 code,
 kbd,
-pre,
 samp {
   font-family: "Source Code Pro", monospace;
   font-size: var(--scale-S)rem;
   background-color: var(--color-grey-light);
+  border: 1px solid var(--color-grey-medium);
+  padding: 0 var(--scale-XS)em;
+  border-radius: var(--scale-XS)em;
+}
+pre code {
+  display: block;
+  padding: var(--scale-XS)em;
+  overflow: scroll;
 }

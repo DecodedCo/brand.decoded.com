@@ -33,6 +33,13 @@
 .header-brochure .name {
   margin: 5rem 0 0 1rem;
 }
+
+
+.nav-toggle {
+  float: left;
+  width: 1.14rem;
+  height: 1.14rem;
+}
 .header-brand {
   width: 150px;
   float: right;

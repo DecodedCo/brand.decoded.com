@@ -812,16 +812,16 @@ html {
 
     h2 {
         font-size: 1.34rem;
-        line-height: 1.125;
+        line-height: 1;
+        font-weight: 600;
         margin: 3.7rem 0 1.34rem;
-        color: rgb(186,184,176);
     }
 
     h3 {
         font-size: 1.34rem;
-        line-height: 1;
-        font-weight: 600;
-        margin: 1.34rem 0;
+        line-height: 1.125;
+        margin: 2.3rem 0 1.34rem;
+        color: rgb(186,184,176);
     }
 
     h4, h5, h6 {
@@ -1025,11 +1025,18 @@ ol.styled li::before {
 
 code,
 kbd,
-pre,
 samp {
   font-family: "Source Code Pro", monospace;
   font-size: 0.83rem;
   background-color: rgb(242,241,239);
+  border: 1px solid rgb(186,184,176);
+  padding: 0 0.6em;
+  border-radius: 0.6em;
+}
+pre code {
+  display: block;
+  padding: 0.6em;
+  overflow: scroll;
 }
 /*
  * Gridism

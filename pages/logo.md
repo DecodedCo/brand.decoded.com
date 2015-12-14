@@ -1,6 +1,6 @@
 # Logo [Use it!](#use-it)
 
-The Decoded logotype is our most visible and important brand asset. Learn how to best represent the logotype and Decoded brand in any experience.  
+The Decoded logotype is our most visible and important brand asset. Learn how to best represent the logotype and Decoded brand in any experience.
 Where possible we use the round, yellow logo. In small sizes and on full yellow backgrounds, the logotype can be used without the yellow background.
 
 <div class="example">
@@ -13,7 +13,7 @@ Where possible we use the round, yellow logo. In small sizes and on full yellow 
 
 ## Sizing
 
-To preserve legibility, the logotype should never be printed smaller than 30mm for print and 120px for screen.   
+To preserve legibility, the logotype should never be printed smaller than 30mm for print and 120px for screen.
 
 ## Partner Logos
 
@@ -50,7 +50,9 @@ Use the scalable SVG for modern devices and Decoded-internal apps:
   <img src="http://brand-assets.decoded.com/logos/decoded_round.svg">
 </div>
 
-```<img src="http://brand-assets.decoded.com/logos/decoded_round.svg">```
+```
+<img src="http://brand-assets.decoded.com/logos/decoded_round.svg">
+```
 
 Use a PNG for older browsers:
 
@@ -58,14 +60,18 @@ Use a PNG for older browsers:
   <img src="http://brand-assets.decoded.com/logos/decoded_round_150px.png">
 </div>
 
-```<img src="http://brand-assets.decoded.com/logos/decoded_round_150px.png">```
+```
+<img src="http://brand-assets.decoded.com/logos/decoded_round_150px.png">
+```
 
 
 <div class="example">
   <img src="http://brand-assets.decoded.com/logos/decoded_round_250px.png">
 </div>
 
-```<img src="http://brand-assets.decoded.com/logos/decoded_round_250px.png">```
+```
+<img src="http://brand-assets.decoded.com/logos/decoded_round_250px.png">
+```
 
 In some cases you'll need a logo that is not in the circular device. Applications for the logotype by itself might be page headers in apps.
 
@@ -73,10 +79,14 @@ In some cases you'll need a logo that is not in the circular device. Application
   <img src="http://brand-assets.decoded.com/logos/decoded_type_navbar.png">
 </div>
 
-```<img src="http://brand-assets.decoded.com/logos/decoded_type_navbar.png">```
+```
+<img src="http://brand-assets.decoded.com/logos/decoded_type_navbar.png">
+```
 
 <div class="example">
   <img src="http://brand-assets.decoded.com/logos/decoded_type_265px.png">
 </div>
 
-```<img src="http://brand-assets.decoded.com/logos/decoded_type_265px.png">```
+```
+<img src="http://brand-assets.decoded.com/logos/decoded_type_265px.png">
+```

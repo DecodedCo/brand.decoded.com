@@ -9,6 +9,13 @@ var app = express();
 
 app.set('port', (process.env.PORT || 5000));
 
+// Markdown code highlighting with highlight.js
+marked.setOptions({
+  highlight: function (code) {
+    return require('highlight.js').highlightAuto(code).value;
+  }
+});
+
 /*****************************\
 | DO NOT REMOVE THIS FUNCTION |
 \*****************************/
