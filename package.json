@@ -1,6 +1,6 @@
 {
   "name": "brand-guidelines",
-  "version": "0.1",
+  "version": "0.1.0",
   "description": "Decoded Brand Guidelines",
   "main": "index.js",
   "scripts": {
