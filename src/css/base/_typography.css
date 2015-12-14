@@ -260,6 +260,7 @@ samp {
   background-color: var(--color-grey-light);
   padding: 0 var(--scale-XS)em;
 }
+
 pre code {
   display: block;
   padding: var(--scale-XS)em;
