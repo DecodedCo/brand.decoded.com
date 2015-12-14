@@ -1,8 +1,8 @@
 {
   "name": "brand-guidelines",
-  "version": "0.0.1",
+  "version": "0.1",
   "description": "Decoded Brand Guidelines",
-  "main": "webpack.config.js",
+  "main": "index.js",
   "scripts": {
     "build": "gulp build",
     "start": "node index.js",

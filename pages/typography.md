@@ -18,7 +18,7 @@ Source Sans embodies the open, friendly approach Decoded bring to the world, bei
 Our secondary typeface is Source Serif Pro.
 
 <div class="example">
-  <h1 class="serif">Source Sans Pro</h1>
+  <h1 class="serif">Source Serif Pro</h1>
 </div>
 
 It complements our main Source Sans Pro and adds sophistication and a more conversational voice to our communications. Source Serif Pro should be used in combination with active language. Lead paragraphs prompting the user to start a transformation programme, quotes and testimonials.
@@ -153,7 +153,7 @@ Use our [Decoded CC Library](/pages/how-to/cc-library) to get all the paragraph 
 ### On Your Mac
 
 To install the fonts on your mac, download the files from [Google Drive](https://drive.google.com/a/decoded.co/folderview?id=0B7zlrpAcS_XNQlA1bV91cHNudWM&usp=sharing)
-or grab the latest version on Github: [Source Sans](https://github.com/adobe-fonts/source-sans-pro), [Source Serif](https://github.com/adobe-fonts/source-sans-pro), [Source Code](https://github.com/adobe-fonts/source-code-pro).
+or grab the latest version on Github: [Source Sans](https://github.com/adobe-fonts/source-sans-pro), [Source Serif](https://github.com/adobe-fonts/source-serif-pro), [Source Code](https://github.com/adobe-fonts/source-code-pro).
 
 To install the fonts, just double click the files once you unzipped the archive, or [follow these instructions](https://support.apple.com/en-gb/HT201749).
 
