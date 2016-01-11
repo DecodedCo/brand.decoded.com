@@ -1,5 +1,5 @@
 # Email Signature Generator [Use it!](#use-it)
-Emails are our primary form of communication with clients. This tool will allow everyone to have a consistent email signature which looks beautiful in every email tool our clients may be using.
+Emails are our primary form of communication with clients. This tool will allow everyone to have a consistent email signature which looks beautiful in every email tool our clients may be using. It is inline with the new business class designs.
 
 ## Use it
 
@@ -23,22 +23,22 @@ Emails are our primary form of communication with clients. This tool will allow 
 
   <!-- Phone Number -->
   <p style="margin:0 0 8px 0;">
-    <a id="number" contenteditable="true" class="editor number" style="box-shadow:0 0 0 0 !important;  font-size:14px; font-weight:200 !important; color:#333;font-family:Helvetica Neue, Helvetica, sans-serif; text-decoration:none; border-bottom:1px solid #333; padding-bottom:1px;" href="tel:442035830972">+44 20 3583 0972 </a>
+    <a id="number" contenteditable="true" class="editor number" style="box-shadow:0 0 0 0 !important;  font-size:14px; font-weight:200 !important; color:#333;font-family:Helvetica Neue, Helvetica, sans-serif; text-decoration:none; border-bottom:1px solid #BAB8B0;; padding-bottom:1px;" href="tel:442035830972">+44 78 9214 1475</a><span style="color:#BAB8B0;" contenteditable="true">&nbsp;&nbsp;|&nbsp;&nbsp;</span><a class="editor" id="number" contenteditable="true" class="editor number" style="box-shadow:0 0 0 0 !important;  font-size:14px; font-weight:200 !important; color:#333;font-family:Helvetica Neue, Helvetica, sans-serif; text-decoration:none; border-bottom:1px solid #BAB8B0;; padding-bottom:1px;" href="tel:442035830972">+44 20 3583 0972 </a>
+  </p>
+
+  <!-- Phone Number -->
+  <p style="margin:0 0 8px 0;">
+   
   </p>
 
   <!-- Your work email -->
   <p style="margin:0 0 8px 0;">
-    <a id="email" contenteditable="true" class="email editor" style="box-shadow:0 0 0 0!important; font-size:14px; font-weight:200 !important; color:#333;font-family:Helvetica Neue, Helvetica, sans-serif; text-decoration:none; border-bottom:1px solid #333; padding-bottom:1px; text-transformation:lowercase;" href="mailto:info@decoded.com">info@decoded.com</a>
-  </p>
-
-  <!-- Twitter -->
-  <p style="margin:0 0 8px 0;">
-    <a id="twitter" contenteditable="true" class="editor twitter" style="box-shadow:0 0 0 0 !important; font-size:14px; font-weight:200 !important; color:#333; font-family:Helvetica Neue, Helvetica, sans-serif; text-decoration:none; text-transformation:lowercase; border-bottom:1px solid #333; padding-bottom:1px;" href="https://twitter.com/decodedco">@decodedco</a>
+    <a id="email" contenteditable="true" class="email editor" style="box-shadow:0 0 0 0!important; font-size:14px; font-weight:200 !important; color:#333;font-family:Helvetica Neue, Helvetica, sans-serif; text-decoration:none; border-bottom:1px solid #BAB8B0; padding-bottom:1px; text-transformation:lowercase;"href="mailto:info@decoded.com">info@decoded.com</a><span style="color:#BAB8B0;" contenteditable="true">&nbsp;&nbsp;|&nbsp;&nbsp;</span><a class="editor" id="twitter" contenteditable="true" class="twitter" style="box-shadow:0 0 0 0 !important; font-size:14px; font-weight:200 !important; color:#333; font-family:Helvetica Neue, Helvetica, sans-serif; text-decoration:none; text-transformation:lowercase; border-bottom:1px solid #BAB8B0;; padding-bottom:1px;" href="https://twitter.com/decodedco">@decodedco</a>
   </p>
 
   <!-- Decoded website -->
   <p style="margin:0 0 8px 0;">
-    <a class="editor website" id="website" contenteditable="true" style="box-shadow:0 0 0 0 !important; font-size:14px; font-weight:200 !important; color:#333; font-family:Helvetica Neue, Helvetica, sans-serif; text-decoration:none; border-bottom:1px solid #333; padding-bottom:1px; text-transformation:lowercase;" href="http://www.decoded.com/">decoded.com</a>
+    <a class="website" id="website" style="box-shadow:0 0 0 0 !important; font-size:14px; font-weight:200 !important; color:#333; font-family:Helvetica Neue, Helvetica, sans-serif; text-decoration:none; border-bottom:1px solid #BAB8B0; padding-bottom:1px; text-transformation:lowercase;" href="http://www.decoded.com/">decoded.com</a><span style="color:#BAB8B0;">&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="https://www.twitter.com/decodedco" style="box-shadow:0 0 0 0 !important; font-size:14px; font-weight:200 !important; color:#333; font-family:Helvetica Neue, Helvetica, sans-serif; text-decoration:none; border-bottom:1px solid #BAB8B0; padding-bottom:1px; text-transformation:lowercase;">@decodedco</a>
   </p>
 </div>
 
