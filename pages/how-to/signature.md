@@ -43,7 +43,7 @@ Emails are our primary form of communication with clients. This tool will allow 
   
 <!-- Trigger -->
 <div class="button col-md-12">
-  <button style="margin-top:1.34em; margin-bottom:6.7em; font-size:0.89em; padding:15px; text-transform:uppercase; background-color:#fef800; border:none; font-weight:500;" class="btn" data-clipboard-target="#wrapper">COPY TO CLIPBOARD</button>
+  <button style="margin-top:1.34em; margin-bottom:6.7em; font-size:0.89em; padding:15px; text-transform:uppercase; background-color:#fef800; border:none; font-weight:500;" class="Btn primary" data-clipboard-target="#wrapper">COPY TO CLIPBOARD</button>
 </div>	
   
   
@@ -94,7 +94,7 @@ $( ".number" ).blur(function() {
 
 <!-- Start clipboard tool -->
 <script>
-  var clipboard = new Clipboard('.btn');
+  var clipboard = new Clipboard('.Btn');
   clipboard.on('success', function(e) {
       console.log(e);
   });
@@ -121,7 +121,7 @@ It is recommended to test with an email to yourself to double check the URL's ar
 
 ### Mail for Mac
 1. Click *Mail* > *Preferences* in the toolbar.
-2. Go to the *Signatures* tab.
+2. A preferences pop-up will appear &ndash; Go to the *Signatures* tab.
 3. Choose your *work email.*
 4. Press *Add (+).*
 5. Paste your signature into the box on the right.
