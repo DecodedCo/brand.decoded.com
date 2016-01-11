@@ -43,7 +43,7 @@ Emails are our primary form of communication with clients. This tool will allow 
 
 <!-- Trigger -->
 <div class="button col-md-12">
-  <button title="Copied!" class="Btn primary margin-top-XL margin-bottom-XXXL" data-clipboard-target="#wrapper">Copy to Clipboard</button>
+  <button style="position:absolute;" title="Copied!" class="Btn primary margin-top-XL margin-bottom-XXXL" data-clipboard-target="#wrapper">Copy to Clipboard</button>
 </div>
 
 
