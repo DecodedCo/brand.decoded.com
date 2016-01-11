@@ -804,6 +804,12 @@ html {
         margin: 3.7rem 0;
     }
 
+    h1.XXXL {
+        font-size: 3.7rem;
+        line-height: 1.125;
+        margin: 3.7rem 0;
+    }
+
     h1.headline {
         font-family: "Source Serif Pro", serif;
         font-size: 6.7rem;
