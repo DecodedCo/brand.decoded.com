@@ -57,6 +57,12 @@
         --scale-XXXL: 3.7;
         --scale-XXXXL: 6.7;
 
+    /* margins and spacing */
+        --spacing-S: var(--scale-XS)rem;
+        --spacing: var(--scale-M)rem;
+        --spacing-L: var(--scale-L)rem;
+        --spacing-XL: var(--scale-XXL)rem;
+
     /* z-index scale */
         --z-overlay:5;
         --z-nav: 4;

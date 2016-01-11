@@ -1,5 +1,5 @@
 # Email Signature Generator [Use it!](#use-it)
-Emails are our primary form of communication with clients. This tool will allow everyone to have a consistent email signature which looks beautiful in every email tool our clients may be using. 
+Emails are our primary form of communication with clients. This tool will allow everyone to have a consistent email signature which looks beautiful in every email tool our clients may be using.
 
 ## Use it
 
@@ -16,9 +16,9 @@ Emails are our primary form of communication with clients. This tool will allow 
 
   <!-- Your Name -->
   <h3 class="editor" contenteditable="true" style="margin-top:60px; font-weight:600 !important; font-size:18px; color:#333; margin-bottom:0; font-family:Georgia, Times, Times New Roman, serif;">Bill Murray</h3>
-    
+
   <!-- You're job role -->
-  <p class="editor" contenteditable="true" style="font-size:14px; font-weight:200 !important; margin-top:5px; margin-bottom:30px; font-family:Helvetica Neue, Helvetica, sans-serif;">Actor, Comedian</p> 
+  <p class="editor" contenteditable="true" style="font-size:14px; font-weight:200 !important; margin-top:5px; margin-bottom:30px; font-family:Helvetica Neue, Helvetica, sans-serif;">Actor, Comedian</p>
 
   <!-- Phone Number -->
   <p style="margin:0 0 8px 0;">
@@ -40,13 +40,13 @@ Emails are our primary form of communication with clients. This tool will allow 
     <a class="editor website" id="website" contenteditable="true" style="box-shadow:0 0 0 0 !important; font-size:14px; font-weight:200 !important; color:#333; font-family:Helvetica Neue, Helvetica, sans-serif; text-decoration:none; border-bottom:1px solid #333; padding-bottom:1px; text-transformation:lowercase;" href="http://www.decoded.com/en-gb">decoded.com/en-gb</a>
   </p>
 </div>
-  
+
 <!-- Trigger -->
 <div class="button col-md-12">
-  <button style="margin-top:1.34em; margin-bottom:6.7em; font-size:0.89em; padding:15px; text-transform:uppercase; background-color:#fef800; border:none; font-weight:500;" class="Btn primary" data-clipboard-target="#wrapper">COPY TO CLIPBOARD</button>
-</div>	
-  
-  
+  <button class="Btn primary margin-top-XL margin-bottom-XL" data-clipboard-target="#wrapper">Copy to Clipboard</button>
+</div>
+
+
 <!-- Call Jquery -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
 
@@ -62,7 +62,7 @@ $( ".number" ).blur(function() {
   num = num.replace(" ", "");
   $('#number').attr("href", tel + num);
 });
-</script> 
+</script>
 
 <!-- Update mailto: href according to email -->
 <script type="text/javascript">
@@ -71,7 +71,7 @@ $( ".number" ).blur(function() {
     var name =  $('#email').text();
     $('#email').attr("href", mail + name);
   });
-</script> 
+</script>
 
 <!-- Update twitter url according to updated twitter handle -->
 <script type="text/javascript">
@@ -81,7 +81,7 @@ $( ".number" ).blur(function() {
   	hand = hand.replace("@", "");
     $('#twitter').attr("href", twit + hand);
   });
-</script> 
+</script>
 
 <!-- Update website url according to updated website location -->
 <script type="text/javascript">
@@ -90,7 +90,7 @@ $( ".number" ).blur(function() {
     var web =  $('#website').text();
     $('#website').attr("href", htt + web);
   });
-</script> 
+</script>
 
 <!-- Start clipboard tool -->
 <script>
@@ -103,7 +103,7 @@ $( ".number" ).blur(function() {
   });
 </script>
 
-#### 2. Paste the signature into your email client 
+#### 2. Paste the signature into your email client
 It is recommended to test with an email to yourself to double check the URL's are working/ no spelling mistakes.
 
 ### Google Inbox
@@ -111,13 +111,13 @@ It is recommended to test with an email to yourself to double check the URL's ar
 2. Scroll to the bottom and click *Settings.*
 3. Click *Signature.*
 4. Make sure *it is turned on.*
-5. Paste the signature into the input field and save. 
+5. Paste the signature into the input field and save.
 
 ### Gmail
 1. Click the *cog* (&#9881;) icon towards the top right of the page.
 2. Click *Settings.*
 3. *Scroll down to Signature*.
-4. Paste the signature into the input field and save changes.  
+4. Paste the signature into the input field and save changes.
 
 ### Mail for Mac
 1. Click *Mail* > *Preferences* in the toolbar.

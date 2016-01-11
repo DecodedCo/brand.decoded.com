@@ -21,7 +21,7 @@
         border-style: solid;
         border-width: var(--form-border-width);
         box-sizing: border-box; /* 2 */
-        color: var(--color-grey);
+        color: var(--color-grey-dark);
         cursor: pointer;
         display: inline-block;
         font: inherit;
@@ -32,7 +32,7 @@
         text-align: center;
         text-decoration: none;
         text-transform: uppercase;
-        font-weight: var(--font-bold);
+        font-weight: var(--sans-bold);
         user-select: none; /* 6 */
         white-space: normal; /* 7 */
     }
@@ -64,7 +64,7 @@
     .Btn:focus,
     .Btn:active {
         text-decoration: none;
-        background: var(--color-grey-light);
+        background: var(--color-grey-medium);
     }
 
     .Btn:disabled,
@@ -95,7 +95,7 @@
 * Buttons with title and detailed description
 */
     .Btn .description {
-        font-weight: var(--font-normal);
+        font-weight: var(--sans-normal);
         margin-top: var(--spacing-S);
     }
 /**
@@ -111,20 +111,20 @@
     .Btn.primary:hover,
     .Btn.primary:focus,
     .Btn.primary:active {
-        color: var(--color-grey);
+        color: var(--color-grey-dark);
     }
 
     .Btn.contrast {
-        background: var(--color-grey-light);
-        color: var(--color-grey);
-        border-color: var(--color-grey-light);
+        background: var(--color-grey-medium);
+        color: var(--color-grey-dark);
+        border-color: var(--color-grey-medium);
     }
 
     .Btn.contrast:hover,
     .Btn.contrast:focus,
     .Btn.contrast:active {
-      background: var(--color-grey-lighter);
-      border-color: var(--color-grey-lighter);
+      background: var(--color-grey-light);
+      border-color: var(--color-grey-light);
     }
 
     .Btn.full-width {
@@ -134,4 +134,16 @@
     }
     .Btn.large {
         padding: var(--spacing);
+    }
+
+    .Btn.active {
+        background: var(--color-green-light);
+        color: var(--color-black);
+        border-color: var(--color-green-light);
+    }
+
+    .Btn.active:hover,
+    .Btn.active:focus,
+    .Btn.active:active {
+        color: var(--color-green);
     }
