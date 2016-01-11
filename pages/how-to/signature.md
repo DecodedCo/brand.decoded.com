@@ -38,7 +38,7 @@ Emails are our primary form of communication with clients. This tool will allow 
 
   <!-- Decoded website -->
   <p style="margin:0 0 8px 0;">
-    <a class="editor website" id="website" contenteditable="true" style="box-shadow:0 0 0 0 !important; font-size:14px; font-weight:200 !important; color:#333; font-family:Helvetica Neue, Helvetica, sans-serif; text-decoration:none; border-bottom:1px solid #333; padding-bottom:1px; text-transformation:lowercase;" href="http://www.decoded.com/en-gb">decoded.com/en-gb</a>
+    <a class="editor website" id="website" contenteditable="true" style="box-shadow:0 0 0 0 !important; font-size:14px; font-weight:200 !important; color:#333; font-family:Helvetica Neue, Helvetica, sans-serif; text-decoration:none; border-bottom:1px solid #333; padding-bottom:1px; text-transformation:lowercase;" href="http://www.decoded.com/">decoded.com</a>
   </p>
 </div>
 
