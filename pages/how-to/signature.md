@@ -43,10 +43,9 @@ Emails are our primary form of communication with clients. This tool will allow 
 </div>
 
 <!-- Trigger -->
-<div style="">
+<div>
   <button title="Copied!" id="copy" class="margin-top-XL margin-bottom-XXXL" style="font-size:0.89em; padding:15px; text-transform:uppercase; background-color:#fef800; border:none; font-weight:600;" data-clipboard-target="#wrapper">Copy to Clipboard</button>
 </div>
-
 
 ## 2. Paste the signature into your email client
 It is recommended to test with an email to yourself to double check the URL's are working/ no spelling mistakes.
