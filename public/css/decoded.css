@@ -974,7 +974,7 @@ html {
 
 .typography ol,
 .typography ul {
-  margin: 2.3rem 0;
+  margin: 1.34rem 0 2.3rem 0;
   padding: 0;
 }
 
@@ -2055,7 +2055,66 @@ pre code {
         margin-left: 1.34rem !important;
      }
 
+.margin-XXL {
+    margin: 2.3rem !important;
+ }
 
+     .margin-top-XXL {
+        margin-top: 2.3rem !important;
+     }
+
+     .margin-right-XXL {
+        margin-right: 2.3rem !important;
+     }
+
+     .margin-bottom-XXL {
+        margin-bottom: 2.3rem !important;
+     }
+
+     .margin-left-XXL {
+        margin-left: 2.3rem !important;
+     }
+
+.margin-XXXL {
+    margin: 3.7rem !important;
+ }
+
+     .margin-top-XXXL {
+        margin-top: 3.7rem !important;
+     }
+
+     .margin-right-XXXL {
+        margin-right: 3.7rem !important;
+     }
+
+     .margin-bottom-XXXL {
+        margin-bottom: 3.7rem !important;
+     }
+
+     .margin-left-XXXL {
+        margin-left: 3.7rem !important;
+     }
+
+
+.margin-XXXXL {
+    margin: 6.7rem !important;
+ }
+
+     .margin-top-XXXXL {
+        margin-top: 6.7rem !important;
+     }
+
+     .margin-right-XXXXL {
+        margin-right: 6.7rem !important;
+     }
+
+     .margin-bottom-XXXXL {
+        margin-bottom: 6.7rem !important;
+     }
+
+     .margin-left-XXXXL {
+        margin-left: 6.7rem !important;
+     }
 /*
 * Padding helpers
 */
@@ -2159,6 +2218,66 @@ pre code {
           .padding-left-XL {
              padding-left: 1.34rem !important;
           }
+
+      .padding-XXL {
+         padding: 2.3rem !important;
+      }
+
+          .padding-top-XXL {
+             padding-top: 2.3rem !important;
+          }
+
+          .padding-right-XXL {
+             padding-right: 2.3rem !important;
+          }
+
+          .padding-bottom-XXL {
+             padding-bottom: 2.3rem !important;
+          }
+
+          .padding-left-XXL {
+             padding-left: 2.3rem !important;
+          }
+
+       .padding-XXXL {
+           padding: 3.7rem !important;
+        }
+
+            .padding-top-XXXL {
+               padding-top: 3.7rem !important;
+            }
+
+            .padding-right-XXXL {
+               padding-right: 3.7rem !important;
+            }
+
+            .padding-bottom-XXXL {
+               padding-bottom: 3.7rem !important;
+            }
+
+            .padding-left-XXXL {
+               padding-left: 3.7rem !important;
+            }
+
+       .padding-XXXXL {
+           padding: 6.7rem !important;
+        }
+
+            .padding-top-XXXXL {
+               padding-top: 6.7rem !important;
+            }
+
+            .padding-right-XXXXL {
+               padding-right: 6.7rem !important;
+            }
+
+            .padding-bottom-XXXXL {
+               padding-bottom: 6.7rem !important;
+            }
+
+            .padding-left-XXXXL {
+               padding-left: 6.7rem !important;
+            }
 .bg-yellow {
   background-color: rgb(254, 248, 0);
 }
