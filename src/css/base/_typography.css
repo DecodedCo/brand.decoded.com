@@ -201,7 +201,7 @@
 
 .typography ol,
 .typography ul {
-  margin: var(--scale-XXL)rem 0;
+  margin: var(--scale-XL)rem 0 var(--scale-XXL)rem 0;
   padding: 0;
 }
 
