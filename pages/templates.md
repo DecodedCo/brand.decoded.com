@@ -14,5 +14,7 @@ Basic Doc A4 | [G Docs](https://docs.google.com/a/decoded.co/document/d/16_L1jFK
 Advanced Layouts | [G Docs](https://docs.google.com/a/decoded.co/document/d/16_L1jFKXjn84KpKs3ORsaCB1_WPqZgsRLDTpgMp7GnI/edit?usp=sharing) | |
 Presentation | [G Docs](https://docs.google.com/a/decoded.co/presentation/d/170sTaGNUKNJqACpSH7GEYSuAxefQFQ0UX-BRimg9OXM/edit?usp=sharing) | |
 Email Signature |||[Email Generator](/pages/how-to/signature)
+Team Bios |[G Docs](https://drive.google.com/open?id=1qalDFJHCTLTwjq5FDR4LlOBNaZTOurlwKYIvKor6LQc)||
+
 
 If you are using InDesign, make sure you add the [Decoded CC Library](/pages/how-to/cc-library).
