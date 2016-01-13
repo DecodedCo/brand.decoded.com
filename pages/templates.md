@@ -16,5 +16,4 @@ Presentation | [G Docs](https://docs.google.com/a/decoded.co/presentation/d/170s
 Email Signature |||[Email Generator](/pages/how-to/signature)
 Team Bios |[G Docs](https://drive.google.com/open?id=1qalDFJHCTLTwjq5FDR4LlOBNaZTOurlwKYIvKor6LQc)||
 
-
 If you are using InDesign, make sure you add the [Decoded CC Library](/pages/how-to/cc-library).
