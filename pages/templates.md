@@ -15,5 +15,6 @@ Advanced Layouts | [G Docs](https://docs.google.com/a/decoded.co/document/d/16_L
 Presentation | [G Docs](https://docs.google.com/a/decoded.co/presentation/d/170sTaGNUKNJqACpSH7GEYSuAxefQFQ0UX-BRimg9OXM/edit?usp=sharing) | |
 Email Signature |||[Email Generator](/pages/how-to/signature)
 Team Bios |[G Docs](https://drive.google.com/open?id=1qalDFJHCTLTwjq5FDR4LlOBNaZTOurlwKYIvKor6LQc)||
+Agenda Template |[G Docs](https://drive.google.com/open?id=1cyb-nuZbtusdSmDETgVhEQ0fONO2ef_XrMWQYGFm1Ps)||
 
 If you are using InDesign, make sure you add the [Decoded CC Library](/pages/how-to/cc-library).
