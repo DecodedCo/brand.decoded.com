@@ -31,6 +31,12 @@
         margin: var(--scale-XXXL)rem 0;
     }
 
+    h1.XXXL {
+        font-size: var(--scale-XXXL)rem;
+        line-height: 1.125;
+        margin: var(--scale-XXXL)rem 0;
+    }
+
     h1.headline {
         font-family: var(--font-serif);
         font-size: var(--scale-XXXXL)rem;
