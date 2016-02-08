@@ -95,3 +95,52 @@ Available classes are:
 .padding-bottom-XL {}
 .padding-left-XL {}
 ```
+
+
+## Basic Template
+
+To start a basic static page, you can use the following HTML:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Your App Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link rel="icon" href="https://assets.decoded.com/images/favicon.png" />
+    <link rel="stylesheet" href="http://brand-assets.decoded.com/css/decoded.css">
+    <link rel="stylesheet" href="http://brand-assets.decoded.com/css/nav.css">
+</head>
+<body class="container">
+    <div role="main">
+        <header class="Nav fixed light" role="navigation">
+
+            <a href="https://decoded.com/" class="Nav-brand"><img src="https://assets.decoded.com/d-components/img/decoded-round.svg" alt="Decoded"></a>
+            <a class="Nav-toggle js-nav-toggle"><span></span></a>
+
+            <ul class="Nav-blocks left">
+            <!-- blocks in floating to the left of the nav bar -->
+                <li>
+                  <h3>My App</h3>
+                </li>
+            </ul>
+
+            <ul class="Nav-blocks right">
+            <!-- blocks in floating to the right of the nav bar -->
+            </ul>
+        </header>
+
+        <div class="row typography">
+        <!-- content here using the bootstrap grid-->
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.js"></script>
+    <script src="http://brand-assets.decoded.com/js/nav.js"></script>
+</body>
+</html>
+
+```
+
+you can also [download the template](http://brand-assets.decoded.com/BrandGuidelines/basic.html).
