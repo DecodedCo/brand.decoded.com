@@ -110,8 +110,8 @@ To start a basic static page, you can use the following HTML:
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <link rel="icon" href="https://assets.decoded.com/images/favicon.png" />
-    <link rel="stylesheet" href="http://brand-assets.decoded.com/css/decoded.css">
-    <link rel="stylesheet" href="http://brand-assets.decoded.com/css/nav.css">
+    <link rel="stylesheet" href="https://brand-assets.decoded.com/css/decoded.css">
+    <link rel="stylesheet" href="https://brand-assets.decoded.com/css/nav.css">
 </head>
 <body class="container">
     <div role="main">
@@ -137,9 +137,10 @@ To start a basic static page, you can use the following HTML:
         </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.js"></script>
-    <script src="http://brand-assets.decoded.com/js/nav.js"></script>
+    <script src="https://brand-assets.decoded.com/js/nav.js"></script>
 </body>
 </html>
+
 
 ```
 
