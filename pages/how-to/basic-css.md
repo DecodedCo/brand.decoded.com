@@ -3,7 +3,7 @@
 For simple apps and websites, include the following css file in the `head` of your html.
 
 ```
-<link rel="stylesheet" href="http://brand-assets.decoded.com/css/decoded.css">
+<link rel="stylesheet" href="https://brand-assets.decoded.com/css/decoded.css">
 ```
 
 The basic decoded.css includes styles for:
@@ -144,4 +144,4 @@ To start a basic static page, you can use the following HTML:
 
 ```
 
-you can also [download the template](http://brand-assets.decoded.com/BrandGuidelines/basic.html).
+you can also [download the template](https://brand-assets.decoded.com/BrandGuidelines/basic.html).

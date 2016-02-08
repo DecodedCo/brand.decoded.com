@@ -61,11 +61,11 @@ So if our paragraph (main body text) is set at 11pt, we'll use 11*1.34 = 15pt as
 
 - **GDocs** calls this line-spacing. Select the text you want to change, then find the line-spacing button in the menu bar, select custom and enter 1.34
 
-![Line Height Menu in GDocs](http://brand-assets.decoded.com/BrandGuidelines/gdocs-lineheight.png)
+![Line Height Menu in GDocs](https://brand-assets.decoded.com/BrandGuidelines/gdocs-lineheight.png)
 
 - **Adobe** calls this Leading. We'll have to calculate the line height and enter it in the leading box or use predefined paragraph styles in the [Decoded Library](http://adobe.ly/1Lst3EU).
 
-![Setting the Line Height in InDesign](http://brand-assets.decoded.com/BrandGuidelines/adobe-indesign-lineheight.png)
+![Setting the Line Height in InDesign](https://brand-assets.decoded.com/BrandGuidelines/adobe-indesign-lineheight.png)
 
 - In **CSS** we can just set `line-height: 1.34;`
 
@@ -77,7 +77,7 @@ Applying the scale for space around and between objects helps to keep the rhythm
 As a rule of thumb, use bigger spacing around objects and smaller spacing within.
 
 <div class="example noPadding">
-  <img src="http://brand-assets.decoded.com/BrandGuidelines/scale-spacing.png" class="noMargin">
+  <img src="https://brand-assets.decoded.com/BrandGuidelines/scale-spacing.png" class="noMargin">
 </div>
 
 ### Grid
@@ -90,11 +90,11 @@ The gutter between the columns should of of a large size according to the Decode
 
 
 <div class="example noPadding">
-  <img src="http://brand-assets.decoded.com/BrandGuidelines/scale-grid.svg" class="full-width">
+  <img src="https://brand-assets.decoded.com/BrandGuidelines/scale-grid.svg" class="full-width">
 </div>
 
 <div class="example noPadding">
-  <img src="http://brand-assets.decoded.com/BrandGuidelines/scale-grid-reverse.svg" class="full-width">
+  <img src="https://brand-assets.decoded.com/BrandGuidelines/scale-grid-reverse.svg" class="full-width">
 </div>
 
 If thirds are not feasible for a given application, a grid of sixths can be used. Try to keep it to thirds whenever possible and only switch to sixths when there is a good reason to. Other grids or random percentages (i.e. 30%, 70%) are discouraged.
