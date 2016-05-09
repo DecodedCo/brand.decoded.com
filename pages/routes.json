@@ -30,6 +30,11 @@
     "type": "nav-link"
   },
   {
+    "label": "CSS and HTML",
+    "link": "/pages/how-to/basic-css",
+    "type": "nav-link"
+  },
+  {
     "label": "Photos",
     "link": "/pages/photos",
     "type": "nav-link"
