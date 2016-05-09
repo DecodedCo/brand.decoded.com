@@ -1011,15 +1011,15 @@ ul.styled li::before {
 }
 
 
-.typography ol li,
-ol.styled li {
+.typography ol > li,
+ol.styled > li {
   counter-increment: step-counter;
   list-style-type: none;
   position: relative;
 }
 
-.typography ol li::before,
-ol.styled li::before {
+.typography ol > li::before,
+ol.styled > li::before {
   content: counter(step-counter, decimal-leading-zero);
   font-size: 0.83em;
   line-height: 1;
@@ -2359,3 +2359,265 @@ pre code {
 .bg-purple {
   background-color: rgb(140,86,182);
 }
+/* FormGroup */
+
+.Form {
+    margin-top: 1rem;
+}
+/* use a class to style text input boxes as there are so many types */
+
+    .FormGroup {
+        margin-bottom: 1.14rem;
+    }
+
+    .FormGroup-control {
+        position: relative;
+    }
+
+    .FormGroup-control input,
+    .FormGroup-control textarea {
+        display: block;
+        width: 100%;
+        border-radius:0;
+        border:none;
+        padding: 0.5em 0.75em;
+        box-shadow: 0px 0px 5px rgba(186,184,176,.5);
+        border-bottom: 1px solid rgb(186,184,176);
+        -webkit-transition: border-bottom 0.25s;
+        transition: border-bottom 0.25s;
+        font-weight: 300;
+    }
+
+    .FormGroup-control textarea {
+        margin-top: 0.6rem;
+    }
+
+    .FormGroup-label {
+        margin-bottom: 0.6rem;
+        font-weight: 600;
+    }
+
+    /* Checkboxes / Radio buttons and labels should be inline */
+
+    .FormGroup-control input[type=checkbox],
+    .FormGroup-control input[type=radio]{
+        display: inline-block;
+        width: 1rem;
+        margin: 0 .2em 0 0;
+    }
+    .FormGroup-control label{
+        display: inline-block;
+        margin: 0.6rem 0;
+        text-indent: -1.35em;
+        padding-left: 1.35em;
+
+    }
+    /* states */
+
+        /* disabled/readonly */
+            .FormGroup-control input [disabled],
+            .FormGroup-control input [readonly] {
+
+            }
+
+        /* valid */
+            .FormGroup-control.is-valid input,
+            .FormGroup-control.is-valid textarea {
+                border-bottom-color: rgb(46,204,133);
+            }
+
+        /* invalid */
+            .FormGroup-control.is-invalid input,
+            .FormGroup-control.is-invalid textarea {
+                border-bottom-color: rgb(231,76,60);
+            }
+
+        /* focus */
+            .FormGroup-control input:focus {
+                border-bottom-color: rgb(254, 248, 0);
+                outline: none;
+            }
+
+        /* required */
+            .FormGroup label.required:after {
+                content: "*";
+                color: rgb(231,76,60);
+            }
+
+/* status - container for messages */
+    .FormGroup-status {
+        position: relative;
+    }
+
+        .FormGroup-state {
+            display:inline-block;
+            margin-top: .5rem;
+        }
+
+        .FormGroup-status.inline .FormGroup-state {
+            margin-top: 0;
+            float: right;
+        }
+
+        .FormGroup-state.is-valid {
+            color: rgb(46,204,133);
+        }
+
+        .FormGroup-state.is-invalid {
+            color: rgb(231,76,60);
+        }
+
+/**
+ * The button classes are best applied to links, buttons, and submit inputs.
+ * These components can be used in forms, as calls to action, or as part of the
+ * general UI of the site/app.
+ */
+
+/**
+ * 1. Corrects inability to style clickable `input` types in iOS.
+ * 2. Normalize `box-sizing` across all elements that this component could be
+ *    applied to.
+ * 4. Inherit font styles from ancestor.
+ * 5. Normalize `line-height`. For `input`, it can't be changed from `normal` in Firefox 4+.
+ * 6. Prevent button text from being selectable.
+ * 7. Make sure `input` will wrap text across multiple lines.
+ */
+
+    .Btn {
+        -webkit-appearance: none; /* 1 */
+        background: transparent;
+        border-color: transparent;
+        border-style: solid;
+        border-width: 1px;
+        box-sizing: border-box; /* 2 */
+        color: rgb(83,80,75);
+        cursor: pointer;
+        display: inline-block;
+        font: inherit;
+        line-height: normal; /* 5 */
+        margin: 0;
+        padding: 0.4em 0.75em;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 600;
+        -webkit-user-select: none;
+           -moz-user-select: none;
+            -ms-user-select: none;
+                user-select: none; /* 6 */
+        white-space: normal; /* 7 */
+    }
+
+/**
+ * Remove excess padding and border in Firefox 4+
+ */
+
+    .Btn::-moz-focus-inner {
+        border: 0;
+        padding: 0;
+    }
+
+/**
+ * Work around a Firefox/IE bug where the transparent `button` background
+ * results in a loss of the default `button` focus styles.
+ */
+
+    .Btn:focus {
+        outline: 1px dotted;
+        outline: 5px auto -webkit-focus-ring-color;
+    }
+
+/**
+ * UI states
+ */
+
+    .Btn:hover,
+    .Btn:focus,
+    .Btn:active {
+        text-decoration: none;
+        background: rgb(186,184,176);
+    }
+
+    .Btn:disabled,
+    .Btn.is-disabled {
+       cursor: default;
+       opacity: 0.6;
+       pointer-events: none;
+    }
+
+    .Btn .ion-spin {
+        display: none;
+    }
+
+    .Btn.is-spinning .ion-spin {
+        display: inline;
+    }
+
+/*
+* Icons on buttons - add margins
+*/
+
+    .Btn .ion {
+        -webkit-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+                transform: scale(1.2);
+        margin: 0.6rem;
+    }
+
+/*
+* Buttons with title and detailed description
+*/
+    .Btn .description {
+        font-weight: 300;
+        margin-top: 0.6rem;
+    }
+/**
+ * Button variations
+ */
+
+    .Btn.primary {
+        background: rgb(254, 248, 0);
+        color: #333333;
+        border-color: rgb(254, 248, 0);
+    }
+
+    .Btn.primary:hover,
+    .Btn.primary:focus,
+    .Btn.primary:active {
+        color: rgb(83,80,75);
+    }
+
+    .Btn.contrast {
+        background: rgb(186,184,176);
+        color: rgb(83,80,75);
+        border-color: rgb(186,184,176);
+    }
+
+    .Btn.contrast:hover,
+    .Btn.contrast:focus,
+    .Btn.contrast:active {
+      background: rgb(242,241,239);
+      border-color: rgb(242,241,239);
+    }
+
+    .Btn.full-width {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .Btn.large {
+        padding: 1rem;
+    }
+
+    .Btn.active {
+        background: rgb(192,227,139);
+        color: #333333;
+        border-color: rgb(192,227,139);
+    }
+
+    .Btn.active:hover,
+    .Btn.active:focus,
+    .Btn.active:active {
+        color: rgb(46,204,133);
+    }

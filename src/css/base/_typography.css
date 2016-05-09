@@ -238,15 +238,15 @@ ul.styled li::before {
 }
 
 
-.typography ol li,
-ol.styled li {
+.typography ol > li,
+ol.styled > li {
   counter-increment: step-counter;
   list-style-type: none;
   position: relative;
 }
 
-.typography ol li::before,
-ol.styled li::before {
+.typography ol > li::before,
+ol.styled > li::before {
   content: counter(step-counter, decimal-leading-zero);
   font-size: var(--scale-S)em;
   line-height: 1;

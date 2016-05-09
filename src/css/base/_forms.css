@@ -1,0 +1,106 @@
+/* FormGroup */
+
+.Form {
+    margin-top: var(--spacing);
+}
+/* use a class to style text input boxes as there are so many types */
+
+    .FormGroup {
+        margin-bottom: var(--spacing-L);
+    }
+
+    .FormGroup-control {
+        position: relative;
+    }
+
+    .FormGroup-control input,
+    .FormGroup-control textarea {
+        display: block;
+        width: 100%;
+        border-radius:0;
+        border:none;
+        padding: 0.5em 0.75em;
+        box-shadow: 0px 0px 5px var(--color-grey-medium-alpha);
+        border-bottom: 1px solid var(--color-grey-medium);
+        transition: border-bottom var(--transition-time);
+        font-weight: var(--sans-normal);
+    }
+
+    .FormGroup-control textarea {
+        margin-top: var(--spacing-S);
+    }
+
+    .FormGroup-label {
+        margin-bottom: var(--spacing-S);
+        font-weight: var(--sans-bold);
+    }
+
+    /* Checkboxes / Radio buttons and labels should be inline */
+
+    .FormGroup-control input[type=checkbox],
+    .FormGroup-control input[type=radio]{
+        display: inline-block;
+        width: 1rem;
+        margin: 0 .2em 0 0;
+    }
+    .FormGroup-control label{
+        display: inline-block;
+        margin: var(--spacing-S) 0;
+        text-indent: -1.35em;
+        padding-left: 1.35em;
+
+    }
+    /* states */
+
+        /* disabled/readonly */
+            .FormGroup-control input [disabled],
+            .FormGroup-control input [readonly] {
+
+            }
+
+        /* valid */
+            .FormGroup-control.is-valid input,
+            .FormGroup-control.is-valid textarea {
+                border-bottom-color:var(--color-green);
+            }
+
+        /* invalid */
+            .FormGroup-control.is-invalid input,
+            .FormGroup-control.is-invalid textarea {
+                border-bottom-color:var(--color-red);
+            }
+
+        /* focus */
+            .FormGroup-control input:focus {
+                border-bottom-color: var(--color-yellow);
+                outline: none;
+            }
+
+        /* required */
+            .FormGroup label.required:after {
+                content: "*";
+                color: var(--color-red);
+            }
+
+/* status - container for messages */
+    .FormGroup-status {
+        position: relative;
+    }
+
+        .FormGroup-state {
+            display:inline-block;
+            margin-top: .5rem;
+        }
+
+        .FormGroup-status.inline .FormGroup-state {
+            margin-top: 0;
+            float: right;
+        }
+
+        .FormGroup-state.is-valid {
+            color: var(--color-green);
+        }
+
+        .FormGroup-state.is-invalid {
+            color:var(--color-red);
+        }
