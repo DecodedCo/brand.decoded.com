@@ -13,7 +13,7 @@ Emails are our primary form of communication with clients. This tool will allow 
     <tr>
       <td style="
         background:none;
-        border-bottom: 1px solid #F2F1EF; 
+        border-bottom: 1px solid #F2F1EF;
         height:1px;
         width:100%;
         margin:0px 0px 0px 0px;">&nbsp;</td>
@@ -21,70 +21,72 @@ Emails are our primary form of communication with clients. This tool will allow 
   </table>
 
   <!-- Your Name -->
-  <h3 
-  class="editor" 
-  contenteditable="true" 
+  <h3
+  class="editor"
+  contenteditable="true"
   style="
-    margin-top:60px; 
-    font-weight:600 !important; 
-    font-size:18px;
+    margin-top:60px;
+    font-weight:600 !important;
+    font-size:14px;
     color:#333;
     margin-bottom:0;
-    font-family:Georgia, Times, Times New Roman, serif;">Bill Murray</h3>
+    font-family:Sans-serif;">Bill Murray</h3>
 
   <!-- Your job role -->
-  <p 
-    class="editor" 
-    contenteditable="true" 
+  <p
+    class="editor"
+    contenteditable="true"
     style="font-size:14px;
       font-weight:200 !important;
       margin-top:5px;
       margin-bottom:30px;
       font-family:Helvetica Neue, Helvetica, sans-serif;">Actor, Comedian</p>
 
+  <img style="margin-left:0; margin-top:60px; margin-bottom:30px; padding:0;" src="https://assets.decoded.com/emails/footer.gif" alt="Decoded Logo">
+
   <!-- Work phone number & Personal number-->
   <p style="margin:0 0 8px 0;">
-    <a 
-      id="worknum" 
-      contenteditable="true" 
-      class="worknum" 
+    <a
+      id="worknum"
+      contenteditable="true"
+      class="worknum"
       style="
         box-shadow:0 0 0 0 !important;
-        font-size:14px; 
-        font-weight:200 !important; 
+        font-size:14px;
+        font-weight:200 !important;
         color:#333;
         font-family:Helvetica Neue, Helvetica, sans-serif;
-        text-decoration:none; 
-        border-bottom:1px solid #BAB8B0; 
+        text-decoration:none;
+        border-bottom:1px solid #BAB8B0;
         padding-bottom:1px;"
       href="tel:+442035830972">+44 20 3583 0972</a>
 
     <span style="color:#BAB8B0;" contenteditable="true">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
 
-    <a 
-      class="directnum" 
-      id="directnum" 
-      contenteditable="true" 
-      class="number" 
+    <a
+      class="directnum"
+      id="directnum"
+      contenteditable="true"
+      class="number"
       style="
         box-shadow:0 0 0 0 !important;
         font-size:14px;
-        font-weight:200 !important; 
+        font-weight:200 !important;
         color:#333;
-        font-family:Helvetica Neue, Helvetica, sans-serif; 
+        font-family:Helvetica Neue, Helvetica, sans-serif;
         text-decoration:none;
         border-bottom:1px solid #BAB8B0;
-        padding-bottom:1px;" 
+        padding-bottom:1px;"
       href="tel:+441234567891">+44 YOUR NUMBER</a>
   </p>
 
 <!-- Your work email and personal twitter -->
 <p style="margin:0 0 8px 0;">
 
-  <a 
-    id="email" 
-    contenteditable="true" 
-    class="email editor" 
+  <a
+    id="email"
+    contenteditable="true"
+    class="email editor"
     style="
       box-shadow:0 0 0 0!important;
       font-size:14px;
@@ -93,35 +95,35 @@ Emails are our primary form of communication with clients. This tool will allow 
       font-family:Helvetica Neue, Helvetica, sans-serif;
       text-decoration:none;
       border-bottom:1px solid #BAB8B0;
-      padding-bottom:1px; 
+      padding-bottom:1px;
       text-transformation:lowercase;"
     href="mailto:bill@decoded.com">bill@decoded.com</a>
 
   <span style="color:#BAB8B0;" contenteditable="true">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
 
-  <a 
-    id="twitter" 
-    contenteditable="true" 
-    class="twitter" 
+  <a
+    id="twitter"
+    contenteditable="true"
+    class="twitter"
     style="
       box-shadow:0 0 0 0 !important;
-      font-size:14px; 
+      font-size:14px;
       font-weight:200 !important;
-      color:#333; 
+      color:#333;
       font-family:Helvetica Neue, Helvetica, sans-serif;
       text-decoration:none;
       text-transformation:lowercase;
       border-bottom:1px solid #BAB8B0;
-      padding-bottom:1px;" 
+      padding-bottom:1px;"
     href="https://twitter.com/decodedco">@billmurray</a>
 </p>
 
 <!-- Decoded website & Twitter-->
 <p style="margin:0 0 8px 0;">
 
-  <a 
-    class="website" 
-    id="website" 
+  <a
+    class="website"
+    id="website"
     style="
       box-shadow:0 0 0 0 !important;
       font-size:14px;
@@ -136,15 +138,15 @@ Emails are our primary form of communication with clients. This tool will allow 
 
   <span style="color:#BAB8B0;">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
 
-  <a 
-    href="https://www.twitter.com/decodedco" 
+  <a
+    href="https://www.twitter.com/decodedco"
     style="
-      box-shadow:0 0 0 0 !important; 
+      box-shadow:0 0 0 0 !important;
       font-size:14px;
       font-weight:200 !important;
       color:#333;
-      font-family:Helvetica Neue, Helvetica, sans-serif; 
-      text-decoration:none; 
+      font-family:Helvetica Neue, Helvetica, sans-serif;
+      text-decoration:none;
       border-bottom:1px solid #BAB8B0;
       padding-bottom:1px;
       text-transformation:lowercase;">@decodedco</a>
@@ -154,17 +156,17 @@ Emails are our primary form of communication with clients. This tool will allow 
 
 <!-- Trigger to copy signature-->
 <div>
-  <button 
-    title="Copied!" 
-    id="copy" 
-    class="margin-top-XL margin-bottom-XXXL" 
+  <button
+    title="Copied!"
+    id="copy"
+    class="margin-top-XL margin-bottom-XXXL"
     style="
       font-size:0.89em;
       padding:15px;
       text-transform:uppercase;
       background-color:#fef800;
       border:none;
-      font-weight:600;" 
+      font-weight:600;"
     data-clipboard-target="#wrapper">Copy to Clipboard</button>
 </div>
 
