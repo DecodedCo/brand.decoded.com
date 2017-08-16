@@ -42,7 +42,7 @@ Emails are our primary form of communication with clients. This tool will allow 
       margin-bottom:30px;
       font-family:Helvetica Neue, Helvetica, sans-serif;">Actor, Comedian</p>
 
-  <img style="margin-left:0; margin-bottom:50px; padding:0;" src="https://thimbleprojects.org/philsn/304496/footer.gif">
+  <img style="margin-left:0; margin-bottom:50px; padding:0;" src="https://assets.decoded.com/emails/footer.gif">
 
   <!-- Work phone number & Personal number-->
   <p style="margin:0 0 8px 0;">
