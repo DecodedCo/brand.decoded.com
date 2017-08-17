@@ -8,150 +8,68 @@ Emails are our primary form of communication with clients. This tool will allow 
 
 <div class="col-md-12" id="wrapper">
 
-  <!-- Border top in a table to be friendly for mail clients -->
-  <table border="0" width="100%" cellpadding="0" cellspacing="0">
-    <tr>
-      <td style="
-        background:none;
-        border-bottom: 1px solid #F2F1EF;
-        height:1px;
-        width:100%;
-        margin:0px 0px 0px 0px;">&nbsp;</td>
-    </tr>
-  </table>
-
-  <!-- Your Name -->
-  <h3
-  class="editor"
-  contenteditable="true"
-  style="
-    margin-top:60px;
-    font-weight:600 !important;
-    font-size:14px;
-    color:#333;
-    margin-bottom:0;
-    font-family:Sans-serif;">Bill Murray</h3>
-
-  <!-- Your job role -->
+  <!-- name -->
   <p
     class="editor"
     contenteditable="true"
     style="font-size:14px;
+      margin-top:0px;
+      margin-bottom:0px;
+      line-height:22px;
       font-weight:200 !important;
-      margin-top:5px;
-      margin-bottom:30px;
-      font-family:Helvetica Neue, Helvetica, sans-serif;">Actor, Comedian</p>
+      font-family:sans-serif;"><strong style="color:#333;">Bill Murray</strong></p>
 
-  <img style="margin-left:0; margin-top:60px; margin-bottom:30px; padding:0;" src="https://assets.decoded.com/emails/footer.gif" alt="Decoded Logo">
+<!-- job -->
+  <p contenteditable="true"
+    style="font-size:14px;
+      margin-top:0px;      
+      margin-bottom:0px;
+      line-height:22px;
+      font-weight:200 !important;
+      font-family:sans-serif;">Actor, Comedian</p>
 
-  <!-- Work phone number & Personal number-->
-  <p style="margin:0 0 8px 0;">
-    <a
-      id="worknum"
-      contenteditable="true"
-      class="worknum"
-      style="
-        box-shadow:0 0 0 0 !important;
-        font-size:14px;
-        font-weight:200 !important;
-        color:#333;
-        font-family:Helvetica Neue, Helvetica, sans-serif;
-        text-decoration:none;
-        border-bottom:1px solid #BAB8B0;
-        padding-bottom:1px;"
-      href="tel:+442035830972">+44 20 3583 0972</a>
-
-    <span style="color:#BAB8B0;" contenteditable="true">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-
-    <a
-      class="directnum"
-      id="directnum"
-      contenteditable="true"
-      class="number"
-      style="
-        box-shadow:0 0 0 0 !important;
-        font-size:14px;
-        font-weight:200 !important;
-        color:#333;
-        font-family:Helvetica Neue, Helvetica, sans-serif;
-        text-decoration:none;
-        border-bottom:1px solid #BAB8B0;
-        padding-bottom:1px;"
-      href="tel:+441234567891">+44 YOUR NUMBER</a>
-  </p>
-
-<!-- Your work email and personal twitter -->
-<p style="margin:0 0 8px 0;">
-
+<!-- email -->
   <a
     id="email"
     contenteditable="true"
     class="email editor"
-    style="
-      box-shadow:0 0 0 0!important;
-      font-size:14px;
-      font-weight:200 !important;
-      color:#333;
+    style="font-size:14px;
+      box-shadow:none;       
+      border:0px;
+      text-decoration:underline;
+      color:#333;   
       font-family:Helvetica Neue, Helvetica, sans-serif;
-      text-decoration:none;
-      border-bottom:1px solid #BAB8B0;
-      padding-bottom:1px;
       text-transformation:lowercase;"
     href="mailto:bill@decoded.com">bill@decoded.com</a>
+    &emsp;
+    <!-- phone -->
+    <a
+      id="worknum"
+      contenteditable="true"
+      class="worknum"
+      href="tel:+442035830972"
+      style="font-size:14px;
+        box-shadow:none;       
+        border:0px;
+        text-decoration:underline;
+        color:#333;
+        font-family:Helvetica Neue, Helvetica, sans-serif;">+44 20 3583 0972</a></p>
 
-  <span style="color:#BAB8B0;" contenteditable="true">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+  <!-- gif -->
+  <a href="https://decoded.com">
+    <img style="
+      margin-left:0;
+      margin-top:60px;
+      margin-bottom:30px;
+      padding:0;" src="https://assets.decoded.com/emails/footer.gif" alt="Decoded Logo">
+  </a>
 
-  <a
-    id="twitter"
-    contenteditable="true"
-    class="twitter"
-    style="
-      box-shadow:0 0 0 0 !important;
-      font-size:14px;
-      font-weight:200 !important;
-      color:#333;
-      font-family:Helvetica Neue, Helvetica, sans-serif;
-      text-decoration:none;
-      text-transformation:lowercase;
-      border-bottom:1px solid #BAB8B0;
-      padding-bottom:1px;"
-    href="https://twitter.com/decodedco">@billmurray</a>
-</p>
-
-<!-- Decoded website & Twitter-->
-<p style="margin:0 0 8px 0;">
-
-  <a
-    class="website"
-    id="website"
-    style="
-      box-shadow:0 0 0 0 !important;
-      font-size:14px;
-      font-weight:200 !important;
-      color:#333;
-      font-family:Helvetica Neue, Helvetica, sans-serif;
-      text-decoration:none;
-      border-bottom:1px solid #BAB8B0;
-      padding-bottom:1px;
-      text-transformation:lowercase;"
-    href="http://www.decoded.com/">decoded.com</a>
-
-  <span style="color:#BAB8B0;">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-
-  <a
-    href="https://www.twitter.com/decodedco"
-    style="
-      box-shadow:0 0 0 0 !important;
-      font-size:14px;
-      font-weight:200 !important;
-      color:#333;
-      font-family:Helvetica Neue, Helvetica, sans-serif;
-      text-decoration:none;
-      border-bottom:1px solid #BAB8B0;
-      padding-bottom:1px;
-      text-transformation:lowercase;">@decodedco</a>
-
-  </p>
+  <!-- locations -->
+  <p
+    style="font-size:14px;
+      font-variant: small-caps;
+      letter-spacing:1.2px;
+      color:#bab8b0;">LONDON&nbsp;&#8226;&nbsp;AMSTERDAM&nbsp;&#8226; NEW&nbsp;YORK&nbsp;&#8226;&nbsp;SYDNEY</p>
 </div>
 
 <!-- Trigger to copy signature-->
@@ -212,16 +130,6 @@ $( ".worknum" ).blur(function() {
 });
 </script>
 
-<!-- Update tel: according to personal number -->
-<script type="text/javascript">
-$( ".directnum" ).blur(function() {
-  var tel1 = "tel:";
-  var num1 =  $('#directnum').text();
-  num1 = num1.replace(" ", "");
-  $('#directnum').attr("href", tel1 + num1);
-});
-</script>
-
 <!-- Update mailto: href according to email -->
 <script type="text/javascript">
   $( ".email" ).blur(function() {
@@ -231,24 +139,6 @@ $( ".directnum" ).blur(function() {
   });
 </script>
 
-<!-- Update twitter url according to updated twitter handle -->
-<script type="text/javascript">
-  $( ".twitter" ).blur(function() {
-    var twit = "http://twitter.com/";
-    var hand =  $('#twitter').text();
-    hand = hand.replace("@", "");
-    $('#twitter').attr("href", twit + hand);
-  });
-</script>
-
-<!-- Update website url according to updated website location -->
-<script type="text/javascript">
-  $( ".website" ).blur(function() {
-    var htt = "https://www.";
-    var web =  $('#website').text();
-    $('#website').attr("href", htt + web);
-  });
-</script>
 
 <!-- Start clipboard tool -->
 <script>
