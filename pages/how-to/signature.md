@@ -6,7 +6,7 @@ Emails are our primary form of communication with clients. This tool will allow 
 #### 1. Replace the details below with your own, then hit &ldquo;copy to clipboard&rdquo;
 
 
-<div class="col-md-12" id="wrapper">
+<div class="col-md-12" id="wrapper" style="padding-top:40px;">
 
   <!-- name -->
   <p
