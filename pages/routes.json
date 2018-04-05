@@ -38,5 +38,35 @@
     "label": "Photos",
     "link": "/pages/photos",
     "type": "nav-link"
+  },
+  {
+    "label": "Writing: Key Bits",
+    "link": "/pages/writing-key-bits",
+    "type": "nav-link"
+  },
+  {
+    "label": "Writing: Goals and Principles",
+    "link": "/pages/writing-principles",
+    "type": "nav-link"
+  },
+  {
+    "label": "Writing: Voice and Tone",
+    "link": "/pages/writing-voice-and-tone",
+    "type": "nav-link"
+  },
+  {
+    "label": "Writing: About People",
+    "link": "/pages/writing-about-people",
+    "type": "nav-link"
+  },
+  {
+    "label": "Writing: Grammar and Mechanics",
+    "link": "/pages/writing-grammar-and-mechanics",
+    "type": "nav-link"
+  },
+  {
+    "label": "Writing: Word List",
+    "link": "/pages/writing-word-list",
+    "type": "nav-link"
   }
 ]
