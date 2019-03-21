@@ -10,7 +10,7 @@ All templates are read-only. Open the template and select `File -> Make a copy..
 
 Template Name | Google Docs | Adobe | Other
 --------------|-------------|----------|------
-Basic Doc A4 | [G Docs](https://docs.google.com/a/decoded.co/document/d/16_L1jFKXjn84KpKs3ORsaCB1_WPqZgsRLDTpgMp7GnI/edit?usp=sharing) | [InDesign](https://drive.google.com/a/decoded.co/file/d/0B7zlrpAcS_XNYTZPa1pPQjRZOEU/view?usp=sharing)|
+Basic Doc A4 | [G Docs](https://docs.google.com/document/d/1XqT5KmCluJMaIf_cWwdYfs5awGEbioJChzx2Tyvg6mc/edit) | [InDesign](https://drive.google.com/a/decoded.co/file/d/0B7zlrpAcS_XNYTZPa1pPQjRZOEU/view?usp=sharing)|
 Advanced Layouts | [G Docs](https://docs.google.com/a/decoded.co/document/d/16_L1jFKXjn84KpKs3ORsaCB1_WPqZgsRLDTpgMp7GnI/edit?usp=sharing) | |
 Presentation | [G Docs](https://docs.google.com/a/decoded.co/presentation/d/170sTaGNUKNJqACpSH7GEYSuAxefQFQ0UX-BRimg9OXM/edit?usp=sharing) | |
 Email Signature |||[Email Generator](/pages/how-to/signature)
