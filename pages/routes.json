@@ -20,11 +20,6 @@
     "type": "nav-link"
   },
   {
-    "label": "Scale - Sizes",
-    "link": "/pages/scale",
-    "type": "nav-link"
-  },
-  {
     "label": "Templates",
     "link": "/pages/templates",
     "type": "nav-link"
