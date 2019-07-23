@@ -35,7 +35,7 @@ The Decoded Logo can be on either side, but always place it on the right side wh
 
 ### GDocs or Adobe
 
-To send logos to a client or use them in your own documents, [Download the Logo](https://drive.google.com/a/decoded.co/folderview?id=0B7zlrpAcS_XNM3NfU0pCTjRUSmc&usp=sharing).
+To send logos to a client or use them in your own documents, [Download the Logo](https://drive.google.com/drive/folders/10v9pr6M0tITWkDufyybN5JRapd4eJ9cU).
 
 Always use CMYK files for print products and RGB files for use on screen. For GDocs, use RGB files. Most Google Document Templates already have logos in them.
 
