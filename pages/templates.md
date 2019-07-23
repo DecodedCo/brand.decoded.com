@@ -10,12 +10,9 @@ All templates are read-only. Open the template and select `File -> Make a copy..
 
 Template Name | Google Docs | Other
 --------------|-------------|------
-Basic Doc A4 | [G Docs](https://docs.google.com/document/d/1IIWHU6XroNKtPH6VZWcau17YKr9-lib9U1F0b4MdEOM/edit)
-Advanced Layouts | [G Docs](https://docs.google.com/a/decoded.co/document/d/16_L1jFKXjn84KpKs3ORsaCB1_WPqZgsRLDTpgMp7GnI/edit?usp=sharing) | 
-Presentation | [G Docs](https://docs.google.com/a/decoded.co/presentation/d/170sTaGNUKNJqACpSH7GEYSuAxefQFQ0UX-BRimg9OXM/edit?usp=sharing) | 
-Email Signature ||[Email Generator](http://clients.gregtilleystudio.com/decoded/signature/generator.html)
-Team Bios |[G Docs](https://drive.google.com/open?id=1qalDFJHCTLTwjq5FDR4LlOBNaZTOurlwKYIvKor6LQc)|
-Agenda Template |[G Docs](https://drive.google.com/open?id=1cyb-nuZbtusdSmDETgVhEQ0fONO2ef_XrMWQYGFm1Ps)|
-Feedback Template |[G Docs](https://docs.google.com/a/decoded.co/document/d/1w4oG8EKtNN2BAAzB9YlI_BjMZQwdt0dqDBPUgNS7850/edit?usp=sharing)|[Feedback Report Editor](https://my.decoded.com/feedbackreport) - [Screen Cast](https://www.youtube.com/watch?v=CEdJkOAW4bE)
+Basic Doc A4 | [G Docs](https://drive.google.com/open?id=1dVjp6ApzDM6e9cAwsq3n0kJVDpYGJ5jEEBOkDEj5ILI) |
+Presentation | [G Docs](https://drive.google.com/open?id=1vzSN7-cjvp0zYIYQNL6GGrcp2KQD09Hx0XGr4IrbirU) | 
+Email Signature ||[Email Generator](http://clients.gregtilleystudio.com/decoded/signature/generator.html) |
+Business Cards || Order on [moo.com](https://www.moo.com/m4b/account/login?mbs_target=https%3A%2F%2Fwww.moo.com%2Fmbs%2Fproducts%2Fbusiness-cards&sig=69ad2a5d049bcb851cb5a1c0e5d11094e72f846ec315ef525b4ec74fb25f5b5c)
 
 If you are using InDesign, make sure you add the [Decoded CC Library](/pages/how-to/cc-library).
