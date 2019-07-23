@@ -2,4 +2,4 @@
 
 ## Stock Photos
 
-Find a selection of images that illustrate Decoded products on the [Decoded Images Tumblr](http://decoded-images.tumblr.com/)
+Find a selection of images that illustrate Decoded on the [Decoded Approved Photos Drive](https://drive.google.com/drive/folders/1H4zKsVv6LIgTyTH2CUQ8Lnb0zcQIWbLp)
